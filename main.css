@@ -9,7 +9,7 @@
 #heading{
     text-align: center;
   color: #0049b7;
-    font-family: 'Homemade Apple', cursive;
+font-family: 'Vollkorn SC', serif;
  background-color: #f75990; 
  border-radius: 8px;
  height:100px;
@@ -30,7 +30,7 @@ img {
 #listing{
     font-family: 'Gayathri', sans-serif;
 
-    line-height: 40px;
+    line-height: 10px;
     color: #0049b7;
 margin-left: 5px;
 }
@@ -43,7 +43,7 @@ h2{
 
     line-height: 40px;
     color: #0049b7;
-      font-family: 'Homemade Apple', cursive;
+font-family: 'Vollkorn SC', serif;
    background-color: #f75990;
    border-radius: 8px;
    
