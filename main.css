@@ -15,39 +15,40 @@ font-family: 'Vollkorn SC', serif;
  height:100px;
  height: 90px;
  line-height: 90px;
-
-
-
 }
+
 img {
-    float:right;
-    padding-right:15px;
-    padding-top: 20px;
-    box-shadow: 0 20px 25px 0 #696969;
-    border-radius: 4px ;
-   
+
+  float:right;
+  padding-right:15px;
+  padding-top: 20px;
+  box-shadow: 0 20px 25px 0 #696969;
+  border-radius: 4px ;
+ 
 }
 #listing{
-    font-family: 'Gayathri', sans-serif;
+  font-family: 'Gayathri', sans-serif;
 
     line-height: 20px;
     color: #0049b7;
 margin-left: 10px;
 }
+
 h2{
-  line-height: 40px;
-  border-bottom: 1px solid black;
-    padding: 20px;
+line-height: 40px;
+border-bottom: .5px solid black;
+  padding: 20px;
 }
 #foot{
-    text-align: center;
-
-    line-height: 40px;
-    color: #0049b7;
+  
+  text-align: center;
+  color: #0049b7;
 font-family: 'Vollkorn SC', serif;
-   background-color: #f75990;
-   border-radius: 8px;
-   
+ background-color: #f75990; 
+ border-radius: 8px;
  height:100px;
+ height: 90px;
+ line-height: 40px;
+
   
 }
