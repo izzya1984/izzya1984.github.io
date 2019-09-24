@@ -1,4 +1,5 @@
 #whole{
+  font-family: 'Arvo', serif;
     background-color: #ffffff;
     width: 65%;
     height: 300px;
@@ -9,7 +10,6 @@
 #heading{
     text-align: center;
   color: #0049b7;
-font-family: 'Vollkorn SC', serif;
  background-color: #f75990; 
  border-radius: 8px;
  height:100px;
@@ -43,7 +43,7 @@ border-bottom: .5px solid black;
   
   text-align: center;
   color: #0049b7;
-font-family: 'Vollkorn SC', serif;
+  font-family: 'Gayathri', sans-serif;
  background-color: #f75990; 
  border-radius: 8px;
  height:100px;
