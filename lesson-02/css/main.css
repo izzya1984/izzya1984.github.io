@@ -1,0 +1,52 @@
+.allofit{
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+font-size: 36pt;
+background: #efaa52;
+background-size: cover;
+color: #48120e;
+font-family: 'Pacifico', cursive;
+}
+.columns{
+
+background: #ab3e16;
+    
+    border-width: 2px;
+    width: 97%;
+    margin: 0 auto;
+    font-size: 30pt;
+    padding-bottom: 3px; 
+    padding-top: 20px;
+
+}
+.column1{
+    font-size:12pt;
+    font-family: 'Raleway', sans-serif;
+    background: #f8f3e6;
+    width: 96%;
+    margin: 0 auto;
+    padding-top: 10px;
+
+
+
+
+}
+.column2{
+    font-size:12pt;
+    font-family: 'Raleway', sans-serif;
+    background: #f8f3e6;
+    width: 96%;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+.column3{
+    font-size:12pt;
+    font-family: 'Raleway', sans-serif;
+    background: #f8f3e6;
+    width: 96%;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
