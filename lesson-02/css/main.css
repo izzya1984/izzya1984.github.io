@@ -50,3 +50,12 @@ background: #ab3e16;
     padding-top: 10px;
 
 }
+.foot{
+    font-size: 12pt;
+    width: 100%;
+    margin: 0 auto;
+    background: #48120e;
+    color: #f8f3e6;
+    line-height: 60px;
+
+}
