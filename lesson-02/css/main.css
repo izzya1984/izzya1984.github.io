@@ -1,3 +1,19 @@
+header{
+    
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+font-size: 36pt;
+background: #f8f3e6;
+
+color: #48120e;
+font-family: 'Pacifico', cursive;
+
+line-height: 40px;
+ 
+padding-top: 5px;
+
+}
 .allofit{
     width: 98%;
     margin: 0 auto;
@@ -17,7 +33,7 @@ background: #ab3e16;
     margin: 0 auto;
     font-size: 30pt;
     padding-bottom: 3px; 
-    padding-top: 20px;
+    padding-top: 5px;
 
 }
 .column1{
@@ -27,8 +43,6 @@ background: #ab3e16;
     width: 96%;
     margin: 0 auto;
     padding-top: 10px;
-
-
 
 
 }
