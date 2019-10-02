@@ -1,0 +1,10 @@
+@media only screen and (max-width: 425px){
+    header{
+        font-size: 16pt;
+        background: #fd8340;
+        color:#8d2e49;
+    }
+    .grid-container{
+        grid-template-columns: 50% 50%;
+    }
+}
