@@ -1,10 +1,39 @@
-@media only screen and (max-width: 425px){
-    header{
-        font-size: 16pt;
-        background: #fd8340;
-        color:#8d2e49;
-    }
+@media only screen and (max-width: 580px){
+    
     .grid-container{
         grid-template-columns: 50% 50%;
     }
+    h1{
+        font-size: 20pt;
+    }
+    h2{
+        font-size: 14pt;
+    }
+    ul { 
+        color:#fd8340;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      li{color:#fd8340;}
+      nav{
+          height: 180px;
+      }
+      main{
+          font-size: 12;
+      }
+}
+@media only screen and (max-width: 938px){
+    h1{
+        font-size: 25pt;
+    }
+   
+}
+@media only screen and (max-width: 400px){
+    h1{
+        font-size: 20pt;
+    
+    }
+    nav{
+        height: 140px;
+   
 }
