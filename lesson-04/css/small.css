@@ -43,7 +43,7 @@ footer{
 
 
 }
-nav{
+/*nav{
     background: #fbecca;
     color: #3b5012;
      width: 98%;
@@ -56,10 +56,6 @@ nav{
     display: inline;
     margin:0 auto;
     text-align: center;
-}
-nav li a: :active{
-    background-color: #54180b;
-
 }
 ul{
     margin:0 auto;
@@ -77,9 +73,40 @@ li a:hover{
     background-color: #54180b;
 
 }
-.active {
-    background-color: #8d2e49;
+a:active{
+    background-color: #54180b;
+
+}*/
+.topnav {
+    background-color: #fbecca;
+    overflow: hidden;
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
   }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #3b5012;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #54180b;
+    color: #fbecca;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #8d2e49;
+    color: #fbecca;
+  }
+  .topnav .icon {
+    display: none;
+  }
+  
   
 .holder{
     background: #3b5012;
