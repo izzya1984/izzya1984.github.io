@@ -1,0 +1,46 @@
+/*@media only screen and (max-width: 490px){
+    
+    
+    h1{
+        font-size: 20pt;
+    }
+    h2{
+        font-size: 14pt;
+    }
+    h3{
+        font-size: 10pt;
+    }
+    ul { 
+        color:#fd8340;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      li{color:#fd8340;}
+      nav{
+          height: 180px;
+      }
+      main{
+          font-size: 12;
+      }
+}*/
+@media only screen and (max-width: 600px){
+    
+    
+    h1{
+        font-size: 22pt;
+    }
+    h2{
+        font-size: 16pt;
+    }
+    h3{
+        font-size: 12pt;
+    }
+      main{
+          font-size: 12;
+      }
+      
+   nav li {
+        display: block;
+      }
+
+}
