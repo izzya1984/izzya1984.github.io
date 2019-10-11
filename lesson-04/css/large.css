@@ -1,62 +1,45 @@
-/*@media only screen and (max-width: 490px){
-    
-    
-    h1{
-        font-size: 20pt;
-    }
-    h2{
-        font-size: 14pt;
-    }
-    h3{
-        font-size: 10pt;
-    }
-    ul { 
-        color:#fd8340;
-        padding: 8px 16px;
-        text-decoration: none;
-      }
-      li{color:#fd8340;}
-      nav{
-          height: 180px;
-      }
-      main{
-          font-size: 12;
-      }
-}*/
-@media only screen and (max-width: 600px){
-    
-    
-    h1{
-        font-size: 22pt;
-    }
-    h2{
-        font-size: 16pt;
-    }
-    h3{
-        font-size: 12pt;
-    }
-      main{
-          font-size: 12;
-      }
+@media only screen and (min-width: 710px) {
+
+  header{width: 80%;
+  margin: 0 auto;
+  height: 120px;
+}
+  
+  header h1{
+    font-size: 3.5em;
+  }
+  header h3{
+    font-size: 1em;
+  padding-left: 30px;
+  }
+  header img{
+      float:left;
+      padding-top: 15px;
+      padding-left: 55px;
       
-   nav li {
-        display: block;
+      width: 10%;}
+      nav.clearfix{
+        width:80%;
+        margin: 0 auto; 
+        text-align: center;
       }
-      .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
+  nav ul li a{
+      
+      border-right: 1px solid rgba(0,0,0,.15);
+      padding: .6rem 1rem;
   }
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+  main{
+    width: 80%;
+    margin: 0 auto;
+    
   }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+  footer{
+    
+    width: 80%;
+    margin:0 auto; 
+    
+
+
+}
 
 }
