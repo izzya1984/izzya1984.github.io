@@ -8,6 +8,9 @@
         
     
     }
+    header img{
+        width:10%;
+    }
     nav button{
         display: none;
     }
