@@ -1,52 +1,76 @@
 <!DOCTYPE HTML>
-<html lang= "en">
-    <head>
-        <meta charset= "utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Weather Pantry</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<html lang="en">
 
-      
-      
-      <link rel="stylesheet" href="css/small.css">
-      <link rel="stylesheet" href="css/large.css">
-      
-      <link href="https://fonts.googleapis.com/css?family=Rubik%7cSlabo+27px&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <a href="preston-4.html"><img src="images/wmplogo.png" alt="logo"></a> <!--insert logo here when ready-->
-           <h1> theweatherpantry.com</h1> <h3><em>Preston forecast to help you in the kitchen</em></h3></header>
-           <nav>
-                <div class="topnav" id="myTopnav">
-                        <a href="preston-4.html" class="active">Home</a>
-                        <a href="preston.html">Preston</a>
-                        <a href="soda-springs.html">Soda Springs</a>
-                        <a href="fish-have.html">Fish Haven</a>
-                        
-                        <a href="storm-center.html">Storm Center</a>
-                        
-                        <a href="gallery.html">Gallery</a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                          <i class="fa fa-bars"></i>
-                        </a>
-                      </div>
-            </nav>
-<main>
-    <h2>Soda Springs</h2>
-    <div class="holder"><h2>This is a place Holder</h2></div>
-     
-    <div class="holder"><h2>This is a place Holder</h2></div>
-</main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Pantry</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-
+  <link rel="stylesheet" href="css/small.css">
+  
+  <link rel="stylesheet" href="css/medium.css">
+  
+  <link rel="stylesheet" href="css/large.css">
  
-           <footer>  &copy;The Weather Pantry |Itzel Aguilar
-            <p><script language="javascript">
-                    var today = new Date();
-                    document.write(today); var d = new Date();
+  <link href="https://fonts.googleapis.com/css?family=Rubik%7cSlabo+27px&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="preston-4.html"><img src="images/wmplogo.png" alt="logo"></a>
+    <!--insert logo here when ready-->
+    <h1> weatherpantry.com</h1>
+    <h3><em>Preston forecast to help you in the kitchen</em></h3>
+  </header>
+  <nav class="clearfix"> 
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+      <li class ="active">
+        <a href="preston-4.html">Home</a>
+      </li>
+      <li>
+        <a href="preston.html">Preston</a>
+      </li>
+      <li>
+        <a href="soda-springs.html">Soda Springs</a>
+      </li>
+      <li>
+        <a href="fish-have.html">Fish Haven</a>
+      </li>
+      <li>
+        <a href="storm-center.html">Storm Center</a>
+      </li>
+      <li>
+        <a href="gallery.html">Gallery</a>
+      </li>
+
+    </ul>
+    
+   
+  </nav>
+  <main>
+    <h2>Soda Springs</h2>
+    <div class="holder">
+      <h2>This is a place Holder</h2>
+    </div>
+    <div class="holder">
+      <h2>This is a place Holder</h2>
+    </div>
+    <div class="holder-bottom">
+      <h2>This is a place Holder</h2>
+    </div>
+  </main>
+
+  <footer>  &copy;The Weather Pantry |Itzel Aguilar
+      <p><script >
+              var today = new Date();
+              document.write(today); var d = new Date();
 document.getElementById("demo").innerHTML = d.getDate();
-                    </script></p>
+              </script></p>
 </footer>
-        </body>
-    </html>
+      <script src="js/dabuga.js">
+      </script>
+</body>
+
+</html>

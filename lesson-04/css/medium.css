@@ -1,0 +1,43 @@
+@media only screen and (min-width:560px) {
+    header{
+        
+        height: 200px;
+        margin:0 auto; 
+        text-align: center;
+    
+        
+    
+    }
+    nav button{
+        display: none;
+    }
+  
+    nav ul.hide{
+        display: block;
+    }
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li{
+        float:left;
+        border:none;
+    }
+    nav ul li a{
+        
+        border-right: 1px solid rgba(0,0,0,.15);
+        padding: .8rem 1rem;
+    }
+
+}
+
+  /*  header img{
+    
+        padding-top: 20px;
+        padding-left: 50px;
+        width: 30%;
+    }
+    
+    nav button{
+        display: none;
+    }
+}
