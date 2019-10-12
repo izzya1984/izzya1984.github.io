@@ -52,7 +52,7 @@ footer{
     background: #3b5012;
     text-align: center;
     color: #fbecca;
-    margin:0 auto;
+    margin:.5em  auto;
     height: 100px;
     font-family: 'Rubik', sans-serif;
     width:90%;
@@ -107,10 +107,7 @@ nav ul li a {
     color: #fbecca;
     border: 1px solid rgba(0,0,0,0.25)
 }
-nav ul li a .active a{
-    background-color: rgba(0,0,0,.15);
-    color: #8d2e49;
-}
+
 nav ul li a:hover{
     background-color: #54180b;
     color: #fd8340;

@@ -19,17 +19,23 @@
         display: block;
     }
     nav ul {
-        margin-left: 2%;
+        /*margin-left: 2%;*/
+        display: flex;
     }
     nav ul li{
-        float:left;
-        border:none;
+        display: inline-flex;
     }
     nav ul li a{
         
-        border-right: 1px solid rgba(0,0,0,.15);
+        border:none;
+       border-right: 1px solid rgba(0,0,0,.15);
         padding: .8rem 1rem;
     }
+    
+nav ul li a .active a{
+    background-color: rgba(0,0,0,.15);
+    color: #8d2e49;
+}
 
 }
 
