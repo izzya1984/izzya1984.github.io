@@ -1,6 +1,6 @@
 @media only screen and (min-width: 710px) {
 
-  header{width: 80%;
+  header{
   margin: 0 auto;
   height: 120px;
 }
@@ -20,7 +20,7 @@
       
       width: 8%;}
       nav.clearfix{
-        width:80%;
+        
         margin: 0 auto; 
         text-align: center;
       }
@@ -29,18 +29,6 @@
       border-right: 1px solid rgba(0,0,0,.15);
       padding: .6rem 1rem;
   }
-  main{
-    width: 80%;
-    margin: 0 auto;
-    
-  }
-  footer{
-    
-    width: 80%;
-    margin:0 auto; 
-    
-
-
-}
+  
 
 }
