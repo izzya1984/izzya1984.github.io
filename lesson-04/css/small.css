@@ -120,4 +120,19 @@ nav ul.hide{
     content:"";
     display: table;
     clear:both;
+} /* module 5*/
+
+main img{
+
+    
+        width: 98%;
+        margin:0 auto;
+    
+} 
+.articlediv{
+
+    
+        width: 98%;
+        margin:0 auto;
+    
 }
