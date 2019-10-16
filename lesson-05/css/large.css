@@ -49,7 +49,7 @@
     right:15px;
     width:39%;
     min-width: 50px;
-    
+    max-width: 470px;
   }
   #contact{
     position: relative;
