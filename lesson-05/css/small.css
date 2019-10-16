@@ -176,6 +176,7 @@ footer ul {
 }
 footer ul img{
     width:3%;
+    max-width: 25px;
 }
 footer ul li {
     display: inline;
