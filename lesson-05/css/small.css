@@ -48,27 +48,6 @@ footer{
 }
 
   
-.holder{
-    background: #3b5012;
-    text-align: center;
-    color: #fbecca;
-    margin:.5em  auto;
-    height: 100px;
-    font-family: 'Rubik', sans-serif;
-    width:90%;
-    padding:20px;
-}
- .holder-bottom{
-    background: #3b5012;
-    text-align: center;
-    color: #fbecca;
-    margin:0 auto;
-    scroll-margin-bottom:  20px;
-    height: 100px;
-    font-family: 'Rubik', sans-serif;
-    
-    width:90%;
-}
 
 main{
     background: #fbecca;
@@ -99,6 +78,9 @@ nav ul{
     list-style-type: none;
     padding:0;
     margin:0;
+}
+nav ul li.active{
+    background: #8d2e49;
 }
 nav ul li a {
     display: block;
@@ -143,8 +125,13 @@ nav ul.hide{
     padding:5px;
     box-shadow: 5px 10px 8px #888888;
     opacity: .7;
+    width:35%;
+    min-width: 50px;
     
 
+}
+.fiveday{
+    display: none;
 }
 .articlediv{
     width:90%;
@@ -156,19 +143,30 @@ nav ul.hide{
 .articlediv img{
 
 
-    width: 48%;
+    width: 98%;
     margin:0 auto;
     display: block;
 
 }
 #contact{
     width:90%;
-    margin:0 auto;
-border: 1px solid #54180b;
-padding:10px;
+    margin: 0 auto;
+    border: 1px solid #3b5012;
+    text-align: center;; 
+    padding: 10px;
+
 }
-#contact img{width:40%;
-    text-align: left;
+#contact h2{
+    text-align: center;
+}
+#contact img{
+    width:57%;
+    margin:0 auto;
+    display:block;
+}
+.contactinfo{
+    column-count: 2;
+    text-align: center;
 }
 footer ul {
     display: block;
