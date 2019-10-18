@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/medium.css">
 
   <link rel="stylesheet" href="css/large.css">
-  <link rel="shortcut icon" href="images/wmplogo_1_16x16 (1).png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
 
   <link href="https://fonts.googleapis.com/css?family=Rubik%7cSlabo+27px&display=swap" rel="stylesheet">
 </head>
@@ -26,6 +26,8 @@
     </div>
     <h3><em>Preston forecast to help you in the kitchen</em></h3>
   </header>
+  <div><span id="pancakes"></span>
+  </div>
   <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="navMenu" class="hide">
@@ -53,52 +55,78 @@
 
   </nav>
   <main>
-    <h2>Home</h2>
+    <h2>Preston</h2>
     <div class="summaryfull">
       <div class="tablepic">
-        <img id="hero" src="images/basil-delicious-food-459469_50-cropped.jpg" alt="Farm fresh"></div>
+        <img  src="images/basil-delicious-food-459469_50-cropped.jpg" alt="Farm fresh"></div>
       <section class="weathersum">
-        <h3>Weather Summary</h3>
-        <p>blah blah</p>
+        <h2>Weather Summary</h2>
+        <p>Currently:<span>Sunny</span></p>
 
-        <p>blah blah</p>
+        <p>High: <span>76 &#8457; </span></p>
 
-        <p>blah blah</p>
+        <p>Wind Chill: <span> &#8457; </span></p>
+        <p>Humidity: <span>69%</span></p>
+        <p>Wind Speed: <span>5MPH</span></p>
       </section>
       <!-- Hero image here / weather summary-->
     </div>
     <br>
-    <div class="fiveday">
-      <h2>5 Day Forecast</h2>
-      <div id="weathertable">
-        <!-- insert table here-->
-      </div>
+
+
+    <div class="weathertable">
+      <h2>Five day forecast</h2>
+      <table>
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+          <td>
+            <p>Cloudy</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon">
+          </td>
+          <td>
+            <p>with</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon">
+          </td>
+          <td><p>a chance</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon"></td>
+          <td><p>of</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon"></td>
+          <td><p>meatballs</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon"></td>
+        </tr>
+      </table>
+
+
+      <!-- insert table here-->
     </div>
+
+    <br>
+    <br>
     <br>
     <div class="articlediv">
-      <div class="fullarticle">
-        <h2>Article title</h2>
-        <em><b>By Benedict Cumberbatch</b></em>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut sem nulla pharetra diam sit amet nisl suscipit. A lacus vestibulum sed arcu non odio euismod
-          lacinia. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Urna nec tincidunt praesent semper
-          feugiat.
-          pellentesque id nibh tortor id aliquet lectus. Facilisis sed odio morbi quis commodo. Dapibus ultrices in
-          iaculis nunc. Lectus quam id leo in vitae turpis massa sed elementum.
 
-          Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.
-          Auctor urna nunc id cursus metus aliquam eleifend mi. Nunc sed id semper risus in hendrerit gravida rutrum.
-          Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt.</p>
-        <p> Sagittis id consectetur purus ut faucibus
-          In hendrerit gravida rutrum quisque. Eu mi bibendum neque egestas congue quisque egestas diam in.
-          Risus feugiat in ante metus dictum at tempor commodo ullamcorper.
-          Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper.</p>
-      </div>
-      <div class="articleimage"><img src="images/bowl-cuisine-delicious-1703272_50-styled.jpg" alt="Bowl of soup">
-        <!-- article & article image-->
-      </div>
+      <h2>Article title</h2>
+      <em><b>By Benedict Cumberbatch</b></em>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut sem nulla pharetra diam sit amet nisl suscipit. A lacus vestibulum sed arcu non odio euismod
+        lacinia. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Urna nec tincidunt praesent semper
+        feugiat.
+        pellentesque id nibh tortor id aliquet lectus. Facilisis sed odio morbi quis commodo. Dapibus ultrices in
+        iaculis nunc. Lectus quam id leo in vitae turpis massa sed elementum.
 
+        Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.
+        Auctor urna nunc id cursus metus aliquam eleifend mi. Nunc sed id semper risus in hendrerit gravida rutrum.
+        Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt.</p>
+      <p> Sagittis id consectetur purus ut faucibus
+        In hendrerit gravida rutrum quisque. Eu mi bibendum neque egestas congue quisque egestas diam in.
+        Risus feugiat in ante metus dictum at tempor commodo ullamcorper.
+        Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper.</p>
+      <img src="images/bowl-cuisine-delicious-1703272_50-styled.jpg" alt="Bowl of soup">
+      <!-- article & article image-->
     </div>
+
     <br>
 
     <!-- contact & map-->
@@ -107,18 +135,33 @@
       <br>
       <div class="contactinfo">
 
-        <adress>
-          <p><strong>Dodinas Took-Brandybuck</strong></p>
-          <p>2544 Poplar Chase Lane <p>Kendrick, ID 835373</p>
-        </adress>
-        <adress>
-          <p><strong>Seredic Bunce</strong></p>
-          <p></p>2394 Walnut Avenue
-          <p>Hailey, ID 8333</p>
-        </adress>
+
+        <p><strong>The Weather Pantry</strong></p>
+        <p>2544 Poplar Chase Lane <p>Preston, ID 835373</p>
+          <p> <img src="images/email.png" alt="email icon"> izzy@weatherpantry.com</p>
+          <p> <img src="images/pngguru.com-id-nvjse.png" alt="phone icon"> 123 456 7890</p>
+          <ul>
+            <li>
+              <a target="_blank" href="https://twitter.com/?lang=en">
+                <img src="images/hiclipart.com-id_tweet.png" alt="Twitter logo">
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://www.facebook.com/">
+                <img src="images/hiclipart.com-id_facebook.png" alt="Facebook logo">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/">
+                <img src="images/hiclipart.com-id_insta.png" alt="Instagram logo">
+              </a>
+            </li>
+          </ul>
+
       </div>
       <br>
-      <div><img src="images/guide-idaho-map-108942_50-styled.jpg" alt="map">
+      <div class="map"><img src="images/guide-idaho-map-108942_50-styled.jpg" alt="map">
         <br>
       </div>
     </div>
@@ -127,27 +170,13 @@
 
   <footer> &copy;The Weather Pantry |Itzel Aguilar <br>
     <span id="currentdate"></span>
-    <ul>
-      <li>
-        <a target="_blank" href="https://twitter.com/?lang=en">
-          <img src="images/hiclipart.com-id_tweet.png" alt="Twitter logo">
-        </a>
-      </li>
 
-      <li>
-        <a target="_blank" href="https://www.facebook.com/">
-          <img src="images/hiclipart.com-id_facebook.png" alt="Facebook logo">
-        </a>
-      </li>
-      <li>
-        <a target="_blank" href="https://www.linkedin.com/">
-          <img src="images/hiclipart.com-id_insta.png" alt="Instagram logo">
-        </a>
-      </li>
 
-    </ul>
 
   </footer>
+  <script src="js/pancakes.js">
+
+  </script>
   <script src="js/date.js">
   </script>
   <script src="js/dabuga.js">

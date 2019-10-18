@@ -114,7 +114,6 @@ nav ul.hide{
 .tablepic img{    
     width: 94%;
     margin:0 auto;
-
 }
 .weathersum{
     position: absolute;
@@ -125,14 +124,30 @@ nav ul.hide{
     border: 1px solid #8d2e49;
     padding:5px;
     box-shadow: 5px 10px 8px #888888;
-    opacity: .7;
+    opacity: .8;
     width:35%;
     min-width: 50px;
     
 
 }
-.fiveday{
+
+.weathersum span{
+    color: #fbecca;
+}
+.weathertable{
     display: none;
+}
+#pancakes{
+    background-color: yellow;
+    font-family: 'Slabo 27px', serif;
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+    background-size:90%;
+    align-content: center;
+    padding-left: 20px;
+    display: flex;
+    margin: 0 auto;
 }
 .articlediv{
     width:90%;
@@ -160,28 +175,26 @@ nav ul.hide{
 #contact h2{
     text-align: center;
 }
-#contact img{
-    width:57%;
-    margin:0 auto;
-    display:block;
-    
+.map{
+  display: none;  
 }
 .contactinfo{
-    column-count: 2;
+    
     text-align: center;
 }
-footer ul {
+.contactinfo img{
+    width:5%;
+}
+.contactinfo ul {
     display: block;
     list-style: none;
+
 }
-footer ul img{
-    width:3%;
-    max-width: 25px;
-}
-footer ul li {
+.contactinfo ul li  {
     display: inline;
 }
-footer ul li a{
+.contactinfo ul li a{
     text-decoration: none;
-    padding-right: 30px;
+    padding-right: 1em;
+    
 }
