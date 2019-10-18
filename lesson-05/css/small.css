@@ -117,7 +117,7 @@ nav ul.hide{
 }
 .weathersum{
     position: absolute;
-    top:30px;
+    top:25px;
     left:45px;
     background-color: #3b5012;
     color:#fbecca;
@@ -125,7 +125,7 @@ nav ul.hide{
     padding:5px;
     box-shadow: 5px 10px 8px #888888;
     opacity: .8;
-    width:35%;
+    width:30%;
     min-width: 50px;
     
 
