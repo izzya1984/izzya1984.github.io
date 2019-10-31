@@ -217,6 +217,9 @@ grid-template-columns: 1fr 1fr;
 .picgrid figcaption{
       font-size: .8em;
 }
+.picgrid figure :hover{
+    box-shadow: 6px 8px 4px grey;
+}
 main picture img[data-src] {
     filter: blur(0.2em);
   }
