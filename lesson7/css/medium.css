@@ -1,0 +1,53 @@
+@media only screen and (min-width:560px) {
+    header{
+        
+        height: 200px;
+        margin:0 auto; 
+        text-align: center;
+    
+        
+    
+    }
+    header img{
+        width:10%;
+        max-width:169px ;
+    }
+    nav button{
+        display: none;
+    }
+  
+    nav ul.hide{
+        display: block;
+    }
+    nav ul {
+        /*margin-left: 2%;*/
+        display: flex;
+    }
+    nav ul li{
+        display: inline-flex;
+    }
+    nav ul li a{
+        
+        border:none;
+       border-right: 1px solid rgba(0,0,0,.15);
+        padding: .8rem 1rem;
+    }
+    
+nav ul li a .active a{
+    background-color: rgba(0,0,0,.15);
+    color: #8d2e49;
+}
+
+}
+
+  /*  header img{
+    
+        padding-top: 20px;
+        padding-left: 50px;
+        width: 30%;
+    }
+    
+    nav button{
+        display: none;
+    }
+}

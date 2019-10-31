@@ -10,6 +10,7 @@
     }
     header img{
         width:10%;
+        max-width:169px ;
     }
     nav button{
         display: none;

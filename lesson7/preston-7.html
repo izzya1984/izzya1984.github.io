@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Pantry</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="css/small.css">
+
+  <link rel="stylesheet" href="css/medium.css">
+
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Rubik%7cSlabo+27px&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="preston-6.html">
+        <picture>
+            <source srcset="images/wmplogo.png" media="(min-width:800px)">
+
+
+            <source srcset="images/wmplogo60.png" media="(min-width:600px)">
+
+          <source srcset="images/wmplogo40.png" media="(min-width:200px)">
+          <img src="images/wmplogo.png" alt="Spoon logo">
+        </picture></a>
+    <!--insert logo here when ready-->
+    <div class="title">
+      <h1> weatherpantry.com</h1>
+    </div>
+    <h3><em>Preston forecast to help you in the kitchen</em></h3>
+  </header>
+  <div><span id="pancakes"></span>
+  </div>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+      <li>
+        <a href="preston-4.html">Home</a>
+      </li>
+      <li class="active">
+        <a href="preston.html">Preston</a>
+      </li>
+      <li>
+        <a href="soda-springs.html">Soda Springs</a>
+      </li>
+      <li>
+        <a href="fish-have.html">Fish Haven</a>
+      </li>
+      <li>
+        <a href="storm-center.html">Storm Center</a>
+      </li>
+      <li>
+        <a href="gallery.html">Gallery</a>
+      </li>
+
+    </ul>
+
+
+  </nav>
+  <main>
+    <h2>Preston</h2>
+    <div class="summaryfull">
+      <div class="tablepic">
+
+        <picture>
+
+
+          <source srcset="images/hero-l.jpg" media="(min-width:1000px)">
+          <source srcset="images/hero-m.jpg" media="(min-width:600px)">
+
+          <source srcset="images/hero-s.jpg" media="(min-width:200px)">
+          <img src="images/cit230_image_franklinOriginal.jpeg" alt="hero image">
+        </picture>
+      </div>
+      <section class="weathersum">
+        <h2>Weather Summary</h2>
+        <p>Currently:<span>Sunny</span></p>
+
+        <p>High: <span id="temperature">76 &#8457; </span></p>
+
+        <p>Wind Chill: <span id="wChill"> &#8457;</span></p>
+        <p>Humidity: <span>69%</span></p>
+        <p>Wind Speed: <span id="windS">5</span>MPH</p>
+      </section>
+      <!-- Hero image here / weather summary-->
+    </div>
+    <br>
+
+
+    <div class="weathertable">
+      <h2>Five day forecast</h2>
+      <table>
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+          <td>
+            <p>Cloudy</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon">
+          </td>
+          <td>
+            <p>with</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon">
+          </td>
+          <td>
+            <p>a chance</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon">
+          </td>
+          <td>
+            <p>of</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon">
+          </td>
+          <td>
+            <p>meatballs</p><img src="images/pngguru.com-id-uscjn.png" alt="Weather Icon">
+          </td>
+        </tr>
+      </table>
+
+
+      <!-- insert table here-->
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="articlediv">
+
+      <h2>Article title</h2>
+      <em><b>By Benedict Cumberbatch</b></em>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut sem nulla pharetra diam sit amet nisl suscipit. A lacus vestibulum sed arcu non odio euismod
+        lacinia. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Urna nec tincidunt praesent semper
+        feugiat.
+        pellentesque id nibh tortor id aliquet lectus. Facilisis sed odio morbi quis commodo. Dapibus ultrices in
+        iaculis nunc. Lectus quam id leo in vitae turpis massa sed elementum.
+
+        Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.
+        Auctor urna nunc id cursus metus aliquam eleifend mi. Nunc sed id semper risus in hendrerit gravida rutrum.
+        Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt.</p>
+      <p> Sagittis id consectetur purus ut faucibus
+        In hendrerit gravida rutrum quisque. Eu mi bibendum neque egestas congue quisque egestas diam in.
+        Risus feugiat in ante metus dictum at tempor commodo ullamcorper.
+        Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper.</p>
+      <!-- article & article image-->
+    </div>
+
+    <br>
+
+    <!-- contact & map-->
+    <div id="contact">
+      <h2>Contact</h2>
+      <br>
+      <div class="contactinfo">
+
+
+        <p><strong>The Weather Pantry</strong></p>
+        <p>2544 Poplar Chase Lane <p>Preston, ID 835373</p>
+          <p> <img src="images/email.png" alt="email icon"> izzy@weatherpantry.com</p>
+          <p> <img src="images/pngguru.com-id-nvjse.png" alt="phone icon"> 123 456 7890</p>
+          <ul>
+            <li>
+              <a target="_blank" href="https://twitter.com/?lang=en">
+                <img src="images/hiclipart.com-id_tweet.png" alt="Twitter logo">
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://www.facebook.com/">
+                <img src="images/hiclipart.com-id_facebook.png" alt="Facebook logo">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/">
+                <img src="images/hiclipart.com-id_insta.png" alt="Instagram logo">
+              </a>
+            </li>
+          </ul>
+
+      </div>
+    </div>
+    </div>
+    <br>
+  </main>
+
+  <footer> &copy;The Weather Pantry |Itzel Aguilar <br>
+    <span id="currentdate"></span>
+
+
+
+  </footer>
+  <script src="js/pancakes.js">
+
+  </script>
+  <script src="js/date.js">
+  </script>
+  <script src="js/dabuga.js">
+  </script>
+  <script src="js/chillyo.js">    
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/fontloading.js"></script>
+</body>
+
+</html>

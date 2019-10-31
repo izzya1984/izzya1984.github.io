@@ -12,10 +12,11 @@
     font-size: 1em;
   padding-left: 30px;
   }
-  header img{
+  header picture img{
       float:left;
       padding-top: 15px;
       padding-left: 55px;
+      max-width: 145px;
       
       
       width: 8%;}
