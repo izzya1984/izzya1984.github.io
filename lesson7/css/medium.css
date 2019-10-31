@@ -37,7 +37,9 @@ nav ul li a .active a{
     background-color: rgba(0,0,0,.15);
     color: #8d2e49;
 }
-
+.picgrid{
+    grid-template-columns: 1fr 2fr 1fr;
+}
 }
 
   /*  header img{

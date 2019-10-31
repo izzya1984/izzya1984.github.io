@@ -15,7 +15,7 @@ header img{
     padding-top: 15px;
     
     width: 10%;
-    max-width: 168px;;
+    max-width: 168px;
 }
 header.title {
     margin: 0 auto;
@@ -206,3 +206,22 @@ main figure .heroimage img{
     padding-right: 1em;
     
 }
+ .picgrid {
+    display: grid;
+    justify-content: center;
+grid-template-columns: 1fr 1fr;
+}
+.picgrid figure img{
+    width: 100%;
+}
+.picgrid figcaption{
+      font-size: .8em;
+}
+main picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+   main picture img {
+    filter: blur(0em);
+    transition: filter 3s;
+  }
