@@ -127,6 +127,7 @@ nav ul.hide{
     opacity: .8;
     width:30%;
     min-width: 50px;
+    max-height: 250px;
     
 
 }
@@ -217,7 +218,7 @@ grid-template-columns: 1fr 1fr;
 .picgrid figcaption{
       font-size: .8em;
 }
-.picgrid figure :hover{
+.picgrid picture :hover{
     box-shadow: 6px 8px 4px grey;
 }
 main picture img[data-src] {
