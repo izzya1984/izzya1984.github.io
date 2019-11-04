@@ -158,19 +158,25 @@ main figure .heroimage{
 main figure .heroimage img{
     width:100%;
 }
-.articlediv{
-    width:90%;
+.article{
+    
     margin: 0 auto;
     border: 1px solid #3b5012;
+    margin:0 20px;
+  
+}
+.articlediv{
+    width:90%;
     text-align: justify; 
     padding: 10px;
+
 }
-.articlediv img{
+.articlepicture{
 
 
     width: 98%;
     margin:0 auto;
-    display: block;
+    
 
 }
 #contact{
