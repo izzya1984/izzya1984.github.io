@@ -21,7 +21,7 @@ h6 {
 
 table {
     border-collapse: collapse;
-font-size: .9em;
+font-size: 1em;
 }
 
 table,
@@ -35,8 +35,8 @@ th {
     color: white;
     font-kerning: auto ;
 }
-tr:nth-child(even) {
-    background-color: #e7f0ed;
+tbody tr:nth-child(even) {
+    background: #e7f0ed;
 }
 
 
