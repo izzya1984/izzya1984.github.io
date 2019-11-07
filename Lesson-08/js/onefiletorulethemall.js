@@ -1,15 +1,18 @@
+//windchill
+
 var temp = parseFloat(document.getElementById('temperature').textContent);
 var wSpeed = parseFloat(document.getElementById('windS').textContent);
 var windChill = 35.74 + 0.6215 * temp + (0.4275 * temp - 35.75) * Math.pow(wSpeed, 0.16);
 
 document.getElementById("wChill").textContent = parseInt(windChill);
 //console.log(windChill);
+//hamburger menu
 function toggleMenu(){
     document.getElementById("navMenu").classList.toggle("hide");
 } 
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hours: 'numeric', minutes: 'numeric', seconds: 'numeric'};
 document.getElementById("currentdate").textContent= new Date().toLocaleDateString('en-US', options);
-
+//fonts
 WebFont.load({ google: {families: [ 'Slabo 27px']}});
 
   WebFont.load({ google: {families: ['Rubik']}});
@@ -22,7 +25,7 @@ const imgOptions={
     threshold:3,
     rootMargin: "0px 0px 50px 0px"
 };
-
+//lazyload
 const loadImages = (image) => {
   image.setAttribute('src', image.getAttribute('data-src'));
   image.onload = () => {
@@ -47,7 +50,7 @@ if('IntersectionObserver' in window) {
       loadImages(img);
     });
   }
-
+//day&time
   var day = new Date();
   var weekday = new Array(7);
   weekday[0] = "Sunday";
@@ -63,3 +66,7 @@ if('IntersectionObserver' in window) {
     //  console.log("I'll make you banana pancakes")
     document.getElementById("pancakes").innerHTML ="Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion." ;
   }
+  //form slider
+  function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
