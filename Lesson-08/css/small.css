@@ -297,6 +297,12 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 
 } 
+form label.danger{
+    display: block;
+    padding: .75rem 0;
+    color:#555;
+}
+
 form input.submitBtn{
     border: 1px solid #54180b;
     background-color: #3b5012;

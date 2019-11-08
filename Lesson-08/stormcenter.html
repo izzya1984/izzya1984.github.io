@@ -70,7 +70,7 @@
             <legend>
                 Reported by
             </legend>
-            <label class="top"> Full Name*<input type="text" size="5" name="fname" required  pattern="[A-Za-z]">
+            <label class="top"> Full Name*<input type="text"  min-length="5" size="5" name="fname" required  pattern="[A-Za-z]">
             </label>
             <label class="top"> Email*<input type="email" name="email" placeholder="myemail@email.com" >
             </label>
@@ -132,6 +132,15 @@
 
         </fieldset>
         <fieldset>
+                <legend class="top">Are you in danger?</legend>
+                
+                <label class="dangerous"><input type="radio" name="danger" value="yes">Yes
+                </label>
+                <label class="dangerous" ><input type="radio" name="danger" value="no">No
+                </label>
+                <label class="dangerous"><input type="radio" name="danger" value="maybe">Maybe
+                </label>
+                <br><br>
                 <label class="comment">  Additional information or Comments 
                         <input type="text" name="comments" placeholder="Your comment goes here...">
 
