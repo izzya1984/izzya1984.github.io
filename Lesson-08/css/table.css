@@ -36,10 +36,10 @@ th {
     font-kerning: auto ;
 }
 tbody tr:nth-child(even) td {
-    background: #e7f0ed;
+    background: #e7fFed;
 }
 tbody tr:nth-child(odd) td {
-    background:#e7ffed;
+    background:#e7f0ed;
 }
 
 th,

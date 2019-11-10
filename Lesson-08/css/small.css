@@ -276,6 +276,13 @@ form label.chachaslide{
     align-items: center;
     padding-top: 15px;
 }
+ 
+form label.dangerous {
+    display: block;
+    padding-top: 1em;
+    color:#555;
+    line-height: 2em;
+}
 
 form label.comment input{
     display: block;
@@ -296,11 +303,6 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: green solid 6px;
 
-} 
-form label.danger{
-    display: block;
-    padding: .75rem 0;
-    color:#555;
 }
 
 form input.submitBtn{
