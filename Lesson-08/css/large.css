@@ -117,10 +117,11 @@ form label.top input, form label.top select{
   
 padding:.45rem;
 
+
 }
 form label.dangerous {
- 99
-  line-height: .75em;
+ 
+  line-height: .5em;
 }
 
 form label.comment input{
