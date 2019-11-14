@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storm Center</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="css/small.css">
+
+  <link rel="stylesheet" href="css/medium.css">
+
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <header>
+    <a href="preston-8.html">
+      <picture>
+        <source srcset="images/wmplogo.png" media="(min-width:800px)">
+
+
+        <source srcset="images/wmplogo60.png" media="(min-width:600px)">
+
+        <source srcset="images/wmplogo40.png" media="(min-width:200px)">
+        <img src="images/wmplogo.png" alt="Spoon logo">
+      </picture>
+    </a>
+    <!--insert logo here when ready-->
+    <div class="title">
+      <h1> weatherpantry.com</h1>
+    </div>
+    <h3><em>Preston forecast to help you in the kitchen</em></h3>
+  </header>
+  <div><span id="pancakes"></span>
+  </div>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="navMenu" class="hide">
+      <li>
+        <a href="preston-8.html">Home</a>
+      </li>
+      <li >
+        <a href="preston-8.html">Preston</a>
+      </li>
+      <li>
+        <a href="soda-springs.html">Soda Springs</a>
+      </li>
+      <li>
+        <a href="fish-have.html">Fish Haven</a>
+      </li>
+      <li>
+        <a href="stormcenter.html">Storm Center</a>
+      </li>
+      <li>
+        <a href="gallery.html">Gallery</a>
+      </li>
+
+    </ul>
+
+
+  </nav>
+  <main>
+    <h2>Storm Center</h2>
+    <form method="GET" action="thanks.html">
+        <fieldset>
+            <legend>
+                Reported by
+            </legend>
+            <label class="top"> Full Name*<input type="text"  min-length="5" size="10" name="fname" required  pattern="[A-Za-z]">
+            </label>
+            <label class="top"> Email*<input type="email" name="email" placeholder="myemail@email.com" >
+            </label>
+              <label class="top"> Phone<input type="tel" name="phone" placeholder="1235551234">
+            </label>
+            <label class="top"> Zip Code*<input type="number" name="zipCode" placeholder="XXXXX" required pattern="([0-9]{5}(-?[0-9]{4})?)">
+            </label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label class="top"> Storm date<input type="date" name="stormDate"> </label>
+            <label for="stormchoice" class="top">TypeStorm </label>
+            <input list="stormtypes" id="stormchoice" name="stormchoice">
+            <datalist id="stormtypes">
+                
+                <option value="Flash Flood">
+                    
+                <option value="Hail">
+                    
+                <option value="Hurricane">
+                    
+                <option value="Thunderstorm">
+                    
+                <option value="Tornado">
+            </datalist>
+            <br>
+            <label class="chachaslide" for="rating">Storm Severity (1-10):
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">5</span>
+                    </label>
+                    
+                    <datalist id="tickmarks">
+              <option value="0">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+              <option value="6">
+              <option value="7">
+              <option value="8">
+              <option value="9">
+              <option value="10">
+            </datalist>
+            
+            <label class="top">
+                    Storm Region <select name="subject">
+                            <option value="">Select Region &#9662;</option>
+                    
+                    <option value="preston">Preston</option>
+                    <option value="sugarcity">Sugar City</option>
+                    <option value="fishhaven"> Fish Haven</option>
+                    </select>
+                    </label>
+                    
+            
+
+        </fieldset>
+        <fieldset>
+                <legend class="top">Are you in danger?</legend>
+                
+                <label class="dangerous"><input type="radio" name="danger" value="yes">Yes
+                </label>
+                
+                <label class="dangerous" ><input type="radio" name="danger" value="no">No
+                </label>
+                
+                <label class="dangerous"><input type="radio" name="danger" value="maybe">Maybe
+                </label>
+                <br><br>
+                <label class="comment">  Additional information or Comments 
+                        <input type="text" name="comments" placeholder="Your comment goes here...">
+
+                </label>
+                
+            </fieldset>
+            <input type="submit" value="Send my report" class="submitBtn">
+
+
+
+
+
+    </form>
+    
+  </main>
+  <footer> &copy;The Weather Pantry |Itzel Aguilar <br>
+    <span id="currentdate"></span>
+
+
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/fontloading.js"></script>
+  <script src="js/date.js"></script>
+  <script src="js/slider.js"></script> 
+  <script src="js/dabuga.js"></script>
+  <script src="js/onefiletorulethemall.js"></script>
+</body>
+
+</html>
