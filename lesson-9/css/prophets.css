@@ -1,0 +1,26 @@
+body{
+    background-color: #bca0dc;
+    color: #3c1361;
+    font-family: 'Libre Baskerville', serif;
+    }
+ h1{
+    text-align: center;
+}
+
+section{
+    width: 95%;
+    text-align: center;
+    border: 1px solid #3c1361;
+    background-color: #7c5295;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding-bottom: 45px;
+}
+section img{
+    width: 60%;
+    box-shadow: 10px 10px 8px #888888;
+}
+footer{
+    text-align: center;
+    font-size: .8em;
+}
