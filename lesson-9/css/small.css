@@ -1,39 +1,51 @@
 header{
-    background: #8d2e49;
+    background: #54180b;
     font-family: 'Slabo 27px', serif;
     color: #fbecca;
     width: 100%;
-    height: 200px;
     margin:0 auto; 
     text-align: center;
+    padding-top: 5px;
+    position: relative;
 
     
 
 }
-header img{
-    
-    padding-top: 15px;
-    
+header p a picture img{
+    position: absolute;
     width: 10%;
-    max-width: 168px;
+    max-width: 100px;
+    margin-top: -20px;
+    margin-left: -500px;
 }
 header.title {
     margin: 0 auto;
     text-align: center;
 }
-h2{
+header h1{
+    text-align: center;
+}
+header h3{padding-bottom: 20px;;
+}
+h1{
+    padding-top: 20px;
+}
+
+
+h1,h2{
     font-family: 'Slabo 27px', serif;
     margin: 0 auto;
 }
-h3{
+ h3{
     font-family: 'Rubik', sans-serif;
-    font-size: 10pt;
+    margin: 0 auto;
+    
     
 }
 
 footer{
     
-    background: #8d2e49;
+    background: #54180b;
     font-family: 'Slabo 27px', serif;
     color: #fbecca;
     width: 100%;
@@ -67,7 +79,7 @@ nav button{
     color: #fbecca;
 }
 nav{
-    background: #3b5012;
+    background: #fd8340;
     color: #fbecca;
     /* width: 98%;
      line-height: 45px;
@@ -80,8 +92,8 @@ nav ul{
     padding:0;
     margin:0;
 }
-nav ul li.active{
-    background: #8d2e49;
+nav ul li a:active{
+    text-decoration: underline;
 }
 nav ul li a {
     display: block;
@@ -322,4 +334,36 @@ form input.submitBtn:hover{
     width:100%;
      max-width: 20rem;
     
+}
+/***index***/
+
+.idahoans section{
+    background-color: #54180b;
+    opacity: .6;
+
+    width: 90%;
+    color: #fbecca;
+    margin: 25px auto;
+    border-radius: 5px;
+    padding-top: 25px;
+    transition-property: transform;
+      transition-duration:2s;
+
+}
+
+.idahoans section h2 {
+    color: #fbecca;
+}
+.idahoans section h3{
+    font-size: .8em;
+}
+
+
+
+.idahoans section img{
+    width: 70%;
+    padding-bottom: 20px;
+}
+.idahoans section:hover{
+    transform: scale(1.2);
 }

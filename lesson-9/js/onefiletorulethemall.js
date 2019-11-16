@@ -1,3 +1,8 @@
+
+function date(){
+const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hours: 'numeric', minutes: 'numeric', seconds: 'numeric'};
+document.getElementById("currentdate").textContent= new Date().toLocaleDateString('en-US', options);}
+
 //windchill
 
 var temp = parseFloat(document.getElementById('temperature').textContent);
@@ -18,37 +23,41 @@ WebFont.load({ google: {families: [ 'Slabo 27px']}});
   WebFont.load({ google: {families: ['Rubik']}});
  
   WebFont.load({ google: { families: ['Liu Jian Mao Cao']}});
+  //lazayload
+  function lazy( ){
+    
  
   const imagesToLoad = document.querySelectorAll('img[data-src]');
 
-const imgOptions={
-    threshold:3,
-    rootMargin: "0px 0px 50px 0px"
-};
-//lazyload
-const loadImages = (image) => {
-  image.setAttribute('src', image.getAttribute('data-src'));
-  image.onload = () => {
-    image.removeAttribute('data-src');
+  const imgOptions={
+      threshold:3,
+      rootMargin: "0px 0px 50px 0px"
   };
-};
-
-if('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver((items, observer) => {
-      items.forEach((item) => {
-        if(item.isIntersecting) {
-          loadImages(item.target);
-          imgObserver.unobserve(item.target);
-        }
+  //lazyload
+  const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {
+      image.removeAttribute('data-src');
+    };
+  };
+  
+  if('IntersectionObserver' in window) {
+      const imgObserver = new IntersectionObserver((items, observer) => {
+        items.forEach((item) => {
+          if(item.isIntersecting) {
+            loadImages(item.target);
+            imgObserver.unobserve(item.target);
+          }
+        });
       });
-    });
-    imagesToLoad.forEach((img) => {
-      imgObserver.observe(img);
-    });
-  } else {
-    imagesToLoad.forEach((img) => {
-      loadImages(img);
-    });
+      imagesToLoad.forEach((img) => {
+        imgObserver.observe(img);
+      });
+    } else {
+      imagesToLoad.forEach((img) => {
+        loadImages(img);
+      });
+    }
   }
 //day&time
   var day = new Date();

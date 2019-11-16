@@ -12,13 +12,9 @@
     font-size: 1em;
   padding-left: 30px;
   }
-  header picture img{
-      float:left;
-      padding-top: 15px;
-      padding-left: 55px;
-      max-width: 145px;
-      
-      
+  header p a  picture img{
+      position: absolute;
+     margin-left: -400px;
       width: 8%;}
       nav.clearfix{
         
@@ -127,6 +123,11 @@ form label.dangerous {
 form label.comment input{
   height: 120px;
  
+}
+/***index**/
+.idahoans{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 }

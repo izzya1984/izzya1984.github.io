@@ -1,16 +1,18 @@
 @media only screen and (min-width:560px) {
     header{
         
-        height: 200px;
         margin:0 auto; 
         text-align: center;
     
         
     
     }
-    header img{
-        width:10%;
-        max-width:169px ;
+    header p a picture img{
+        width:15%;
+        max-width:100px ;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 10px;
     }
     nav button{
         display: none;
@@ -19,7 +21,7 @@
     nav ul.hide{
         display: block;
     }
-    nav ul {
+    nav ul {px
         /*margin-left: 2%;*/
         display: flex;
     }
@@ -40,6 +42,11 @@ nav ul li a .active a{
 .picgrid{
     grid-template-columns: 1fr 2fr 1fr;
 }
+.idahoans{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/************** index**/
 }
 
   /*  header img{
