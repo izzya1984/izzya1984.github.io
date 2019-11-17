@@ -371,3 +371,29 @@ form input.submitBtn:hover{
      
     opacity: 1;
 }
+/*index article*/
+.indexp{
+    background: #54180b;
+    color: #fbecca;
+    width: 85%;
+    padding: 20px;
+    margin:0 auto;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+.indexp picture img{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.indexp article{
+    text-align: left;
+    padding-top: 10px;
+}
+.indexp p a{
+    text-decoration: none;
+    color: #fd8340;
+}
+.indexp p a:hover{
+    text-decoration: underline;
+}
