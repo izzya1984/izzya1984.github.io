@@ -42,9 +42,17 @@ nav ul li a .active a{
 .picgrid{
     grid-template-columns: 1fr 2fr 1fr;
 }
-.idahoans{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+
+.idahoans section{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+.idahoans section img{
+float: right;
+width: 40%;
+margin-top: -170px;
+padding-right: 20px;
 }
 /************** index**/
 }

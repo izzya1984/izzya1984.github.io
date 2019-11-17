@@ -352,6 +352,7 @@ form input.submitBtn:hover{
 }
 
 .idahoans section h2 {
+    font-size: 1.5em;
     color: #fbecca;
 }
 .idahoans section h3{
@@ -363,7 +364,10 @@ form input.submitBtn:hover{
 .idahoans section img{
     width: 70%;
     padding-bottom: 20px;
+    border-radius: 8px;
 }
 .idahoans section:hover{
     transform: scale(1.2);
+     
+    opacity: 1;
 }
