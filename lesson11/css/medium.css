@@ -1,0 +1,81 @@
+@media only screen and (min-width:560px) {
+    header{
+        
+        margin:0 auto; 
+        text-align: center;
+    
+        
+    
+    }
+    header p a picture img{
+        width:15%;
+        max-width:100px ;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav button{
+        display: none;
+    }
+  
+    nav ul.hide{
+        display: block;
+    }
+    nav ul {px
+        /*margin-left: 2%;*/
+        display: flex;
+    }
+    nav ul li{
+        display: inline-flex;
+    }
+    nav ul li a{
+        
+        border:none;
+       border-right: 1px solid rgba(0,0,0,.15);
+        padding: .8rem 1rem;
+    }
+    
+nav ul li a .active a{
+    background-color: rgba(0,0,0,.15);
+    color: #8d2e49;
+}
+/*preston*/
+
+main div.article picture img{
+    width: 40%;
+    border-radius: 8px;
+    float:right;
+    margin: 10px;
+}
+section.weathersum{
+    font-size: 1em;
+}
+.picgrid{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.idahoans section{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+.idahoans section img{
+float: right;
+width: 40%;
+margin-top: -170px;
+padding-right: 20px;
+}
+/************** index**/
+}
+
+  /*  header img{
+    
+        padding-top: 20px;
+        padding-left: 50px;
+        width: 30%;
+    }
+    
+    nav button{
+        display: none;
+    }
+}

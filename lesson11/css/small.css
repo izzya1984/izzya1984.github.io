@@ -1,0 +1,401 @@
+header{
+    background: #54180b;
+    font-family: 'Slabo 27px', serif;
+    color: #fbecca;
+    width: 100%;
+    margin:0 auto; 
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+
+    
+
+}
+header p a picture img{
+    position: absolute;
+    width: 10%;
+    max-width: 100px;
+    margin-top: -20px;
+    margin-left: -500px;
+}
+header.title {
+    margin: 0 auto;
+    text-align: center;
+}
+header h1{
+    text-align: center;
+}
+header h3{padding-bottom: 20px;;
+}
+h1{
+    padding-top: 20px;
+}
+
+
+h1,h2{
+    font-family: 'Slabo 27px', serif;
+    margin: 0 auto;
+}
+ h3{
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    
+    
+}
+
+footer{
+    
+    background: #54180b;
+    font-family: 'Slabo 27px', serif;
+    color: #fbecca;
+    width: 100%;
+    margin:0 auto; 
+    font-size: 10pt;
+    text-align: center;
+    padding-right: 10px;
+    line-height: 20px;
+    border-top: 5px solid #fd8340;
+
+
+
+}
+
+  
+
+main{
+    background: #fbecca;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 5px solid #54180b ;
+    color: #54180b;
+
+} 
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fbecca;
+}
+nav{
+    background: #fd8340;
+    color: #fbecca;
+    /* width: 98%;
+     line-height: 45px;
+     margin:0 auto;*/
+    font-family: 'Rubik', sans-serif;
+    
+}
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+nav ul li a:active{
+    text-decoration: underline;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #fbecca;
+    border: 1px solid rgba(0,0,0,0.25)
+}
+
+nav ul li a:hover{
+    background-color: #54180b;
+    color: #fd8340;
+}
+nav ul.hide{
+    display:none;
+}
+/*don't change*/
+.clearfix:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+ /* module 5*/
+
+  
+.summaryfull{
+    position: relative;
+}
+
+.tablepic picture img{    
+    width: 94%;
+    margin:0 auto;
+    border-radius: 8px;
+}
+section.weathersum{
+    max-height:170pxpx;
+    font-size: .7em;
+}
+.weathersum{
+    position: absolute;
+    top:15px;
+    left:45px;
+    background-color: #3b5012;
+    color:#fbecca;
+    border: 1px solid #8d2e49;
+    padding:5px;
+    box-shadow: 5px 10px 8px #888888;
+    opacity: .8;
+    width:226px;
+    height: 165x;
+    min-width: 50px;
+    max-height: 250px;
+    
+
+}
+
+.weathersum span{
+    color: #fbecca;
+}
+.weathertable{
+    display: none;
+}
+/*--Banner--*/
+#pancakes{
+    background-color: yellow;
+    font-family: 'Slabo 27px', serif;
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+    background-size:90%;
+    align-content: center;
+    padding-left: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+main figure .heroimage{
+    width:97%;
+
+
+}
+/*article-preston*/
+main div.article{
+    background-color: #54180b;
+    color: #fbecca;
+    border-radius: 8px;
+    width: 94%;
+    margin:0 auto;
+}
+main div.article p{
+    text-align: justify;
+    padding:8px;
+}
+main div.article picture img{
+    width: 50%;
+    border-radius: 8px;
+    
+    max-width: 250px;
+}
+#contact{
+    width:90%;
+    margin: 0 auto;
+    border: 1px solid #3b5012;
+    text-align: center;
+    padding: 10px;
+    background-color: #fd8340;
+    border-radius: 8px;
+
+}
+#contact h2{
+    text-align: center;
+}
+.map{
+  display: none;  
+}
+.contactinfo{
+    
+    text-align: center;
+}
+.contactinfo img{
+    width:5%;
+}
+.contactinfo ul {
+    display: block;
+    list-style: none;
+
+}
+.contactinfo ul li  {
+    display: inline;
+}
+.contactinfo ul li a{
+    text-decoration: none;
+    padding-right: 1em;
+    
+}
+/*---Gallery---*/
+ .picgrid {
+    display: grid;
+    justify-content: center;
+grid-template-columns: 1fr 1fr;
+}
+.picgrid figure img{
+    width: 100%;
+}
+.picgrid figcaption{
+      font-size: .8em;
+}
+.picgrid figure :hover{
+    box-shadow: 6px 8px 4px grey;
+}
+main picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+   main picture img {
+    filter: blur(0em);
+    transition: filter 3s;
+  }
+  /*---Form styling---*/
+  form {
+    text-align: left;
+  }
+  form fieldset{ 
+  margin:2rem 0;
+    border: 1px solid #8d2e49; 
+    border-radius: 8px;
+    padding: .5rem 2%;
+  } 
+form legend{
+    font-size: 1.2rem;
+    color: #54180b;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top{
+    display: block;
+    padding-top: 1rem;
+    color: #54180b;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+display: block;
+font-size: 1rem;
+border: solid 1px #8d2e49;
+border-radius: 4px;
+padding:.75rem;
+color: #555;
+width: 100%;
+max-width: 20rem;
+background-color: rgba(0,0,0,0.1);
+ 
+}
+form label.chachaslide{
+    display:flex ;
+    align-items: center;
+    padding-top: 15px;
+}
+ 
+form label.dangerous {
+    display: block;
+    padding-top: 1em;
+    color:#555;
+    line-height: 2em;
+}
+
+form label.comment input{
+    display: block;
+     width: 96%;
+    max-width: 20rem;
+    height: 100px;
+    background-color: rgba(0,0,0,0.1);
+ 
+border: solid 1px #8d2e49;
+border-radius: 4px;
+padding-left: .5em;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+
+}
+
+form input.submitBtn{
+    border: 1px solid #54180b;
+    background-color: #3b5012;
+    color:#fbecca;
+    border-radius: 1rem;
+    margin: 0 0 2rem 2%;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    align-content: left;
+}
+
+form input.submitBtn:hover{
+    background-color: #8d2e49;
+    width:100%;
+     max-width: 20rem;
+    
+}
+/***index***/
+
+.idahoans section{
+    background-color: #54180b;
+    opacity: .6;
+
+    width: 90%;
+    color: #fbecca;
+    margin: 25px auto;
+    border-radius: 5px;
+    padding-top: 25px;
+    transition-property: transform;
+      transition-duration:2s;
+
+}
+
+.idahoans section h2 {
+    font-size: 1.5em;
+    color: #fbecca;
+}
+.idahoans section h3{
+    font-size: .8em;
+}
+
+
+
+.idahoans section img{
+    width: 70%;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+.idahoans section:hover{
+    transform: scale(1.2);
+     
+    opacity: 1;
+}
+/*index article*/
+.indexp{
+    background: #54180b;
+    color: #fbecca;
+    width: 85%;
+    padding: 20px;
+    margin:0 auto;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+.indexp picture img{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.indexp article{
+    text-align: left;
+    padding-top: 10px;
+}
+.indexp p a{
+    text-decoration: none;
+    color: #fd8340;
+}
+.indexp p a:hover{
+    text-decoration: underline;
+}
