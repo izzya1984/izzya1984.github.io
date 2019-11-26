@@ -1,5 +1,4 @@
-@media only screen and (min-width: 691px) {
-
+@media only screen and (min-width: 800px) {
   header{
   margin: 0 auto;
 }
@@ -36,6 +35,9 @@
     
     
   }
+  .tablepic picture img{    
+    width: 74%;
+}
   .weathertable{
     width: 70%;
     text-align: center;
@@ -48,7 +50,19 @@
     display: block;
     
   }
- 
+  main div.article{
+    width: 74%;
+}
+.weathersum{
+  margin-left:80px;
+  
+
+}
+#contact{
+  width:74%;
+  
+}
+
   /*table-preston*/
   div.weathertable table{
     margin: 0 auto;
