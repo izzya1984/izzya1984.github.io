@@ -1,3 +1,4 @@
 @media only screen and (min-width: 1200px) {
-body{80%}
+body{
+    width:80%;}
 }
