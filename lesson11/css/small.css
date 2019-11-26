@@ -182,6 +182,10 @@ main div.article{
     width: 94%;
     margin:0 auto;
 }
+main div.article h2{
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
 main div.article p{
     text-align: justify;
     padding:8px;
@@ -193,7 +197,7 @@ main div.article picture img{
     max-width: 250px;
 }
 #contact{
-    width:90%;
+    width:92%;
     margin: 0 auto;
     border: 1px solid #3b5012;
     text-align: center;

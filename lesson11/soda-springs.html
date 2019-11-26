@@ -66,6 +66,124 @@
 </nav>
   <main>
     <h1>Soda Springs</h1>
+    <div class="summaryfull">
+        <div class="tablepic">
+  
+          <picture>
+            <source srcset="images/sodadt800.jpg" media="(min-width:1000px)">
+            <source srcset="images/sodadt500.jpg" media="(min-width:600px)">
+            <source srcset="images/sodadt300.jpg" media="(min-width:200px)">
+            <img src="images/sodadt.jpg" alt="hero image-Sosa Springs">
+          </picture>
+        </div>
+        <section class="weathersum">
+          <h2>Weather Summary</h2>
+          <p>Currently:<span id="currently"></span></p>
+  
+          <p>High: <span id="temperature"> </span>&#8457;</p>
+  
+          <p>Wind Chill: <span id="wChill"> </span>&#8457;</p>
+          <p>Humidity: <span id="humidity"></span>%</p>
+          <p>Wind Speed: <span id="windS"></span>MPH</p>
+        </section>
+        <!-- Hero image here / weather summary-->
+      </div>
+      <br>
+  
+  
+      <div class="weathertable">
+        <h2>Five day forecast</h2>
+        <table>
+          <tr>
+            <th><span id="day1"></span></th>
+            <th><span id="day2"></span></th>
+            <th><span id="day3"></span></th>
+  
+            <th><span id="day4"></span></th>
+            <th><span id="day5"></span></th>
+          </tr>
+          <tr>
+            <td>
+              <p><span id= "temp1"></span>&#8457;</p><p><img id="tIcon1" src="#" alt="#"></p>
+            </td>
+            <td>
+              <p><span id= "temp2"></span>&#8457;</p><p><img id="tIcon2" src="#" alt="#"></p>
+            </td>
+            <td>
+              <p><span id= "temp3"></span>&#8457;</p><p><img id="tIcon3" src="#" alt="#"></p></td>
+            <td>
+              <p><span id= "temp4"></span>&#8457;</p><p><img id="tIcon4" src="#" alt="#"></p></td>
+            <td>
+              <p><span id= "temp5"></span>&#8457;</p><p><img id="tIcon5" src="#" alt="#"></p>
+            </td>
+          </tr>
+        </table>
+  
+  
+        <!-- insert table here-->
+      </div>
+  <div class="article">
+    <h2>One name, a whole lot of history</h2>
+    <h4>By WP Team</h4>
+    
+    <picture>
+        <source srcset="images/rainbowsoda500.jpg" media="(min-width:600px)">
+        <source srcset="images/rainbowsoda300.jpg" media="(min-width:200px)">
+        <img src="images/rainbowsoda.jpg" alt="Soda Spring rainbow">
+      </picture>
+      <p>
+          The city is named for the hundreds of natural springs of carbonated water that are located in and
+           around the city.[6] The springs were well known to Native Americans and were a famous landmark 
+           along the Oregon Trail in the middle 19th century. Today the city is also known as the location
+            of the Soda Springs Geyser, which was unleashed in 1934 when "town fathers" were looking for hot 
+            water for a "hot pool" bathing attraction. Instead they drilled into a chamber of highly
+             pressurized carbon dioxide gas and cold water and the geyser was released. After running for weeks,
+              and flooding the downtown area, it was capped and manually released when requested as a tourist 
+              attraction. Now it is let loose every hour on the hour by a timed release valve. Its height and 
+              volume have not decreased after many years. There are viewing platforms at either end of the 
+              
+              travertine mound where the geyser erupts. Interpretive signs are located on the platforms
+               explaining this phenomenon.</p>
+<p>
+    Soda Springs is also the location of one of the Ground Observer Corps sites.</p>
+         </div>
+  
+      <br>
+  
+      <!-- contact & map-->
+      <div id="contact">
+        <h2>Contact</h2>
+        <br>
+        <div class="contactinfo">
+  
+  
+          <p><strong>The Weather Pantry</strong></p>
+          <p>2544 Poplar Chase Lane <p>Preston, ID 835373</p>
+            <p> <img src="images/email.png" alt="email icon"> izzy@weatherpantry.com</p>
+            <p> <img src="images/pngguru.com-id-nvjse.png" alt="phone icon"> 123 456 7890</p>
+            <ul>
+              <li>
+                <a target="_blank" href="https://twitter.com/?lang=en">
+                  <img src="images/hiclipart.com-id_tweet.png" alt="Twitter logo">
+                </a>
+              </li>
+  
+              <li>
+                <a target="_blank" href="https://www.facebook.com/">
+                  <img src="images/hiclipart.com-id_facebook.png" alt="Facebook logo">
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.linkedin.com/">
+                  <img src="images/hiclipart.com-id_insta.png" alt="Instagram logo">
+                </a>
+              </li>
+            </ul>
+  
+        </div>
+      </div>
+      
+      <br>
   </main>
 
   <footer> &copy;The Weather Pantry |Itzel Aguilar <br>
@@ -75,12 +193,15 @@
 
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
-  <script src="js/dabuga.js"></script>
+  <script src="js/onefiletorulethemall.js"></script>
+  <script src="js/5daysoda.js"></script>
+  <script src="js/wpsoda.js"></script>
+  <!-- <script src="js/dabuga.js"></script>
  <script src="js/fontloading.js"></script>
  <script src="js/pancakes.js"></script>
  <script src="js/date.js"></script>
  <script src="js/towndata.js"></script>
-<!-- <script src="js/onefiletorulethemall.js"></script> -->  
+ -->  
 </body>
 
 </html>
