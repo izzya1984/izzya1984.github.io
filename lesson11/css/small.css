@@ -383,8 +383,11 @@ form input.submitBtn:hover{
     margin-bottom: 25px;
     border-radius: 8px;
 }
+.indexp h1{
+    margin-bottom: 10px;
+}
 .indexp picture img{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 8px;
 }
