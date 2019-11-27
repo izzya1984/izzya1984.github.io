@@ -259,6 +259,8 @@ main picture img[data-src] {
   /*---Form styling---*/
   form {
     text-align: left;
+    width:60%;
+    margin:0 auto;
   }
   form fieldset{ 
   margin:2rem 0;
