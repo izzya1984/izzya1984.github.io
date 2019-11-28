@@ -177,6 +177,21 @@ main figure .heroimage{
 
 
 }
+/*event*/
+
+main div.events{
+    padding-top: 15px;
+    padding-bottom:15px ;
+    width: 73%; 
+    margin:20px auto;
+    background-color: #fd8340;
+    border-radius: 8px;
+    color:  #54180b ;
+}
+main div.events img{
+    width:60%;
+    border-radius: 8px;
+}
 /*article-preston*/
 main div.article{
     background-color: #54180b;
@@ -212,9 +227,7 @@ main div.article picture img{
 #contact h2{
     text-align: center;
 }
-.map{
-  display: none;  
-}
+
 .contactinfo{
     
     text-align: center;
@@ -234,6 +247,9 @@ main div.article picture img{
     text-decoration: none;
     padding-right: 1em;
     
+}
+main div#contact.contactinfo picture.map img{
+    width:90%;
 }
 /*---Gallery---*/
  .picgrid {
