@@ -214,42 +214,33 @@ main div.article picture img{
     
     max-width: 250px;
 }
-#contact{
-    width:92%;
-    margin: 0 auto;
-    border: 1px solid #3b5012;
-    text-align: center;
-    padding: 10px;
+div.contact{
+    width:94%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin:0 auto;
     background-color: #fd8340;
+    color: #54180b;
     border-radius: 8px;
-
 }
-#contact h2{
-    text-align: center;
+div.contact p img{
+    width:3%;
 }
-
-.contactinfo{
-    
-    text-align: center;
-}
-.contactinfo img{
-    width:5%;
-}
-.contactinfo ul {
-    display: block;
-    list-style: none;
-
-}
-.contactinfo ul li  {
+div.contact ul li{
     display: inline;
 }
-.contactinfo ul li a{
-    text-decoration: none;
-    padding-right: 1em;
-    
+div.contact ul li a{
+    padding-left: 15px;
 }
-main div#contact.contactinfo picture.map img{
-    width:90%;
+div.contact ul li a img {
+    width:4%;
+}
+div.contact picture.map{text-align: center;}
+div.contact picture.map img{
+    width:80%;
+    border-radius: 8px;
+    margin:0 auto;
+}
 }
 /*---Gallery---*/
  .picgrid {
@@ -368,7 +359,7 @@ form input.submitBtn:hover{
     background-color: #54180b;
     opacity: .6;
 
-    width: 90%;
+    width: 80%;
     color: #fbecca;
     margin: 25px auto;
     border-radius: 5px;

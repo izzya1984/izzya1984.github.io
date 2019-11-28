@@ -58,10 +58,7 @@
   
 
 }
-#contact{
-  width:74%;
-  
-}
+
 
   /*table-preston*/
   div.weathertable table{
@@ -87,32 +84,25 @@
     min-width: 50px;
     max-width: 450px;
   }*/
-  #contact{
-    position: relative;
+  div.contact{
+    width:74%;
   }
+  div.contact p{
+    text-align: left ;
+    padding-left: 10px;
+  }
+  div.contact ul{
+    text-align: left;
+  } 
+div.contact ul li a img {
+    width:3%;
+}
+div.contact picture.map img{
+    width:50%;
+    float: right;
+    padding-right: 15px;
+    margin-top: -200px;
 
-  .map{
-    
-  display: flex;
-    width:48%;
-    max-width: 300px;
-    
-    
-}
-.contactinfo{
-  
-  top:75px;
-  right:15px;
-  width:39%;
-  min-width: 50px;
-   
-}
-.contactinfo img{
-  max-width: 27px;
-}
-.contactinfo ul{
-  margin: 0 0;
-  padding-left:0;
 }
 /*form*/
 form legend{
