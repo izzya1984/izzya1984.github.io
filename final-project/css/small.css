@@ -151,6 +151,8 @@ main div.list ul li {
 }
 
 main div.list ul li a {
+    
+    box-shadow: 5px 5px #888888;
     width: 30%;
     margin: 0 auto;
     background-color: #687a8d;
@@ -160,11 +162,6 @@ main div.list ul li a {
     border-radius: 5px;
 }
 
-main div.amenipics {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
 
 main div.amenities {
     width: 60%;
@@ -174,6 +171,11 @@ main div.amenities {
 
 main div.amenities h2 {
     text-align: center;
+}
+/*receptions*/
+.wreception{
+    width:80%;
+    margin:0 auto;
 }
 
 /*contact*/
@@ -312,7 +314,14 @@ footer {
     color: #f9c3d6;
     font-size: .75em;
 }
-
+footer a {
+    text-decoration: none;
+    color: #f9c3d6;
+}
+footer a:hover{
+    font-style: italic;
+    font-weight: bold;
+}
 footer ul {
     list-style: none;
     padding-left: 0px;
