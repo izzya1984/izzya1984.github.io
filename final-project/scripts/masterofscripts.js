@@ -128,7 +128,7 @@ WebFont.load({
               let pic = document.createElement('img');
     
               
-              eventTitle.textContent = '2020   Temple Closures: ';
+              eventTitle.textContent = '2020 Medford Temple Closures: ';
               phone.textContent =  'Phone: '+ temples[i].phone;
               
               eve2.textContent =  temples[i].closures[1];
@@ -186,7 +186,7 @@ WebFont.load({
                     let pic = document.createElement('img');
           
                     
-                    eventTitle.textContent = '2020  Lubbock Temple Closures: ';
+                    eventTitle.textContent = '2020  Kansas City Temple Closures: ';
                     phone.textContent =  'Phone: '+ temples[i].phone;
                     
                     eve2.textContent =  temples[i].closures[1];
@@ -244,7 +244,7 @@ WebFont.load({
               let pic = document.createElement('img');
     
               
-              eventTitle.textContent = '2020  Lubbock Temple Closures: ';
+              eventTitle.textContent = '2020  Philadelphia Temple Closures: ';
               phone.textContent =  'Phone: '+ temples[i].phone;
               
               eve2.textContent =  temples[i].closures[1];
