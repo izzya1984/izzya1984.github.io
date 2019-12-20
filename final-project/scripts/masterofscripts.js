@@ -53,7 +53,7 @@ WebFont.load({
         return response.json();
       })
       .then(function (jsonObject) {
-          console.table(jsonObject);  // temporary checking for valid response and data parsing
+         // console.table(jsonObject);  // temporary checking for valid response and data parsing
           const temples = jsonObject['temple'];
     
           for (let i = 0; i < temples.length; i++) { //read through it
@@ -83,6 +83,8 @@ WebFont.load({
               
               eve6.textContent =  temples[i].closures[6];
               pic.setAttribute('src', 'images/' + temples[i].photo);
+              pic.setAttribute('alt',  temples[i].city +'temple' );
+          
     
               eCard.appendChild(eventTitle);
               eCard.appendChild(eve2);
@@ -111,7 +113,7 @@ WebFont.load({
         return response.json();
       })
       .then(function (jsonObject) {
-          console.table(jsonObject);  // temporary checking for valid response and data parsing
+          //console.table(jsonObject);  // temporary checking for valid response and data parsing
           const temples = jsonObject['temple'];
     
           for (let i = 0; i < temples.length; i++) { //read through it
@@ -141,6 +143,8 @@ WebFont.load({
               
               eve6.textContent =  temples[i].closures[6];
               pic.setAttribute('src', 'images/' + temples[i].photo);
+              pic.setAttribute('alt',  temples[i].city +'temple' );
+          
     
               eCard.appendChild(eventTitle);
               eCard.appendChild(eve2);
@@ -169,7 +173,7 @@ WebFont.load({
               return response.json();
             })
             .then(function (jsonObject) {
-                console.table(jsonObject);  // temporary checking for valid response and data parsing
+                //console.table(jsonObject);  // temporary checking for valid response and data parsing
                 const temples = jsonObject['temple'];
           
                 for (let i = 0; i < temples.length; i++) { //read through it
@@ -199,6 +203,8 @@ WebFont.load({
                     
                     eve6.textContent =  temples[i].closures[6];
                     pic.setAttribute('src', 'images/' + temples[i].photo);
+                    
+              pic.setAttribute('alt',  temples[i].city +'temple' );
           
                     eCard.appendChild(eventTitle);
                     eCard.appendChild(eve2);
@@ -227,7 +233,7 @@ WebFont.load({
         return response.json();
       })
       .then(function (jsonObject) {
-          console.table(jsonObject);  // temporary checking for valid response and data parsing
+         // console.table(jsonObject);  // temporary checking for valid response and data parsing
           const temples = jsonObject['temple'];
     
           for (let i = 0; i < temples.length; i++) { //read through it
@@ -257,6 +263,8 @@ WebFont.load({
               
               eve6.textContent =  temples[i].closures[6];
               pic.setAttribute('src', 'images/' + temples[i].photo);
+              pic.setAttribute('alt',  temples[i].city +'temple' );
+
     
               eCard.appendChild(eventTitle);
               eCard.appendChild(eve2);
