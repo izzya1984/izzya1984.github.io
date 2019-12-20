@@ -22,5 +22,9 @@
 main div.picsh figure.hidepic{
     display: none;
 }
+.templelist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 }
