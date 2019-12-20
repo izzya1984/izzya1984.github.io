@@ -1,0 +1,17 @@
+
+    main div.picsh, main div.picstarget{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  
+    main div.list ul li{
+        display: inline;
+        
+    }
+
+    .amenipics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    

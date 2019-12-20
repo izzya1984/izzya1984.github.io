@@ -1,0 +1,32 @@
+
+   nav{
+       padding:15px;
+   }
+    nav ul li {
+        
+        padding: 10px;
+        
+         display: inline;
+         border-bottom:none;
+         
+
+      }
+      
+
+    main div.picsh{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+
+main div.picsh figure.hidepic{
+    display: none;
+}
+.templelist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.amenipics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
