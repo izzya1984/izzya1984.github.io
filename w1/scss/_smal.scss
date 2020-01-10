@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+header{
+    background-color:  #6495ED;
+    color: white;
+    list-style-type:none ;
+    text-decoration: none;
+    text-align: right;
+    padding:40px 20px 20px;
+}
+header ul{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header ul li{
+    padding-top: 15px;
+}
+header nav ul li a:visited{
+    color:#FAEBD7 ;
+  
+}
+header nav ul li a:active, 
+.post-content h2 a:active,
+
+.post-content p a:active{
+    color:#DEB887;
+}
+
+header nav ul li a:hover,
+
+.post-content p a:hover{
+    text-decoration: underline;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header h1{
+    font-family: 'Lora', serif;
+}
+main{
+    background-color: #FAEBD7;
+    padding: 20px;
+}
+main article{
+    background-color: white;
+    
+    padding:20px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    text-align: center;
+}
+.post-date{
+color:  #888888;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+}
+.post-content h2 {
+    text-align: left;
+    font-family: 'Lora', serif;
+}
+
+.post-content h2 a:hover{
+    color: #6495ED;
+    text-decoration: underline;
+}
+.post-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+}
+main article section figure img{
+    width: 70%;
+    margin: 0 auto;
+}
+.post-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.post-content p a, 
+.post-content p a:visited{
+    color:#6495ED;
+}
