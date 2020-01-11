@@ -75,23 +75,10 @@ main article section figure img {
   color: #6495ED; }
 
 @media screen and (min-width: 400px) {
-  header {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 118px;
-    height: 100%; }
+body div{
+  display: flex;
+  flex-flow: row;
 
-  main {
-    margin-left: 140px; } }
-@media screen and (min-width: 600px) {
-  header {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 218px;
-    height: 100%; }
 
-  main {
-    margin-left: 245px;
-    top: 0; } }
+}  
+}
