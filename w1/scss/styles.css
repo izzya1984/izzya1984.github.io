@@ -14,6 +14,13 @@ header ul {
 header ul li {
   padding-top: 15px;
 }
+header a {
+  text-decoration: none;
+  color: white;
+}
+header h1 {
+  font-family: "Lora", serif;
+}
 
 header nav ul li a:visited {
   color: #FAEBD7;
@@ -28,15 +35,6 @@ header nav ul li a:active,
 header nav ul li a:hover,
 .post-content p a:hover {
   text-decoration: underline;
-}
-
-header a {
-  text-decoration: none;
-  color: white;
-}
-
-header h1 {
-  font-family: "Lora", serif;
 }
 
 main {
@@ -88,10 +86,10 @@ main article section figure img {
   color: #6495ED;
 }
 
-@media screen and (min-width: 400px) {
-  body {
+@media only screen and (min-width: 400px) {
+  body div {
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
   }
 }
 

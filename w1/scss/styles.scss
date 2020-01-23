@@ -96,10 +96,10 @@ main article section figure img{
 .post-content p a:visited{
     color:$accent;
 }
-@media screen and (min-width : 400px) {
-    body{
-         display: flex;
-    flex-direction: row;
+@media only screen and (min-width : 400px) {
+    body div{
+        display: flex;
+    flex-flow: row;
     }
     
 
