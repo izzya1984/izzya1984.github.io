@@ -5,95 +5,94 @@ header {
   list-style-type: none;
   text-decoration: none;
   text-align: right;
-  padding: 40px 20px 20px; }
-
+  padding: 40px 20px 20px;
+}
 header ul {
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif; }
-
+  font-family: Arial, Helvetica, sans-serif;
+}
 header ul li {
-  padding-top: 15px; }
+  padding-top: 15px;
+}
 
 header nav ul li a:visited {
-  color: #FAEBD7; }
+  color: #FAEBD7;
+}
 
 header nav ul li a:active,
 .post-content h2 a:active,
 .post-content p a:active {
-  color: #DEB887; }
+  color: #DEB887;
+}
 
 header nav ul li a:hover,
 .post-content p a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 header a {
   text-decoration: none;
-  color: white; }
+  color: white;
+}
 
 header h1 {
-  font-family: 'Lora', serif; }
+  font-family: "Lora", serif;
+}
 
 main {
   background-color: #FAEBD7;
-  padding: 20px; }
-
+  padding: 20px;
+}
 main article {
   background-color: white;
   padding: 20px;
   margin-bottom: 30px;
   box-shadow: 5px 5px 5px #888888;
-  text-align: center; }
+  text-align: center;
+}
 
 .post-date {
   color: #888888;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left; }
+  text-align: left;
+}
 
 .post-content h2 {
   text-align: left;
-  font-family: 'Lora', serif; }
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .post-content h2 a:hover {
   color: #6495ED;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .post-content a {
   text-decoration: none;
-  color: black;
-  font-size: 1.25em; }
+  color: #000000;
+  font-size: 1.25em;
+}
 
 main article section figure img {
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .post-content p {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left; }
+  text-align: left;
+}
 
 .post-content p a,
 .post-content p a:visited {
-  color: #6495ED; }
+  color: #6495ED;
+}
 
 @media screen and (min-width: 400px) {
-  header {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 118px;
-    height: 100%; }
-
-  main {
-    margin-left: 140px; } }
-@media screen and (min-width: 600px) {
-  header {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 218px;
-    height: 100%; }
-
-  main {
-    margin-left: 245px;
-    top: 0; } }
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
