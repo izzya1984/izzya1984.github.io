@@ -5,19 +5,35 @@ $accent:#6495ED;
 $header-color: white;
 $post-color:#000000;
 $medium:380px;
+$active:#DEB887;
+$main: #FAEBD7;
+$a:none;
+$hover:underline;
+//mixin 
+@mixin links ($a,$hover, $active)  {
+    a{
+        text-decoration: $a;
+        &:hover{
+            text-decoration: $hover;
+        }
+    }
+     
+    
+}
 
-
+//fonts
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+//nested
 header{
     background-color:  $accent;
     color:$header-color;
-    list-style-type:none ;
-    text-decoration: none;
+    list-style-type:$a;
+    text-decoration: $a;
     text-align: right;
     padding:40px 20px 20px;
 
  ul{
-    list-style: none;
+    list-style: $a;
     font-family: $body-copy;
     li{
         padding-top: 15px;
@@ -25,32 +41,38 @@ header{
     
 }
 a{
+    @include links($a,$hover, $active);
+    /*
     text-decoration: none;
     color:$header-color;
+
+*/
+ 
 }
 h1{
     font-family: $title-font;
 }
 
 }
+//end of nesting
 
 header nav ul li a:visited{
-    color:#FAEBD7 ;
+    color: $main;
   
 }
+/*
 header nav ul li a:active, 
 .post-content h2 a:active,
 
 .post-content p a:active{
-    color:#DEB887;
+    @include active;
 }
-
 header nav ul li a:hover,
 
 .post-content p a:hover{
     text-decoration: underline;
 }
-
+*/
 main{
     background-color: #FAEBD7;
     padding: 20px;
@@ -79,10 +101,10 @@ text-align: left;
     text-decoration: underline;
 }
 .post-content a{
-    text-decoration: none;
+    /*text-decoration: $a;
     color: $post-color;
     font-size: 1.25em;
-}
+*/}
 main article section figure img{
     width: 70%;
     margin: 0 auto;
