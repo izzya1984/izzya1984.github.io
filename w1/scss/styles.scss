@@ -5,35 +5,33 @@ $accent:#6495ED;
 $header-color: white;
 $post-color:#000000;
 $medium:380px;
-$active:#DEB887;
-$main: #FAEBD7;
-$a:none;
 $hover:underline;
-//mixin 
-@mixin links ($a,$hover, $active)  {
-    a{
-        text-decoration: $a;
-        &:hover{
-            text-decoration: $hover;
-        }
-    }
-     
+$nons:none;
+$shadow:#888888;
+ 
+@mixin post($nons,$post-color) {
+    text-decoration: $nons;
+    color: $post-color;
+    font-size: 1.25em;
+
     
 }
 
-//fonts
+
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
-//nested
+
+
+// nested header
 header{
     background-color:  $accent;
     color:$header-color;
-    list-style-type:$a;
-    text-decoration: $a;
+    list-style-type:$nons ;
+    text-decoration:$nons;
     text-align: right;
     padding:40px 20px 20px;
 
  ul{
-    list-style: $a;
+    list-style: none;
     font-family: $body-copy;
     li{
         padding-top: 15px;
@@ -41,38 +39,32 @@ header{
     
 }
 a{
-    @include links($a,$hover, $active);
-    /*
-    text-decoration: none;
+    text-decoration: $nons;
     color:$header-color;
-
-*/
- 
 }
 h1{
     font-family: $title-font;
 }
 
 }
-//end of nesting
 
 header nav ul li a:visited{
-    color: $main;
+    color:#FAEBD7 ;
   
 }
-/*
 header nav ul li a:active, 
 .post-content h2 a:active,
 
 .post-content p a:active{
-    @include active;
+    color:#DEB887;
 }
+
 header nav ul li a:hover,
 
 .post-content p a:hover{
     text-decoration: underline;
 }
-*/
+// nested main
 main{
     background-color: #FAEBD7;
     padding: 20px;
@@ -81,19 +73,20 @@ main{
         
         padding:20px;
         margin-bottom: 30px;
-        box-shadow: 5px 5px 5px #888888;
+        box-shadow: 5px 5px 5px $shadow;
         text-align: center;
-    }
-}
-
+        
 .post-date{
-color:  #888888;
-font-family: $body-copy;
-text-align: left;
-}
-.post-content h2 {
+    color: $shadow;
+    font-family: $body-copy;
     text-align: left;
-    font-family:$body-copy ;
+    }
+    .post-content h2 {
+        text-align: left;
+        font-family:$body-copy ;
+    }
+    
+    }
 }
 
 .post-content h2 a:hover{
@@ -101,10 +94,11 @@ text-align: left;
     text-decoration: underline;
 }
 .post-content a{
-    /*text-decoration: $a;
+    @include post(none, black)
+   /* text-decoration: $nons;
     color: $post-color;
-    font-size: 1.25em;
-*/}
+    font-size: 1.25em;*/
+}
 main article section figure img{
     width: 70%;
     margin: 0 auto;
@@ -118,9 +112,9 @@ main article section figure img{
 .post-content p a:visited{
     color:$accent;
 }
-@media only screen and (min-width : 400px) {
+@media screen and (min-width : $medium) {
     body div{
-        display: flex;
+         display: flex;
     flex-flow: row;
     }
     

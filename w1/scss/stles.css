@@ -15,17 +15,8 @@ header ul li {
   padding-top: 15px;
 }
 header a {
-  /*
-      text-decoration: none;
-      color:$header-color;
-
-  */
-}
-header a a {
   text-decoration: none;
-}
-header a a:hover {
-  text-decoration: underline;
+  color: white;
 }
 header h1 {
   font-family: "Lora", serif;
@@ -35,19 +26,17 @@ header nav ul li a:visited {
   color: #FAEBD7;
 }
 
-/*
-header nav ul li a:active, 
+header nav ul li a:active,
 .post-content h2 a:active,
-
-.post-content p a:active{
-    @include active;
+.post-content p a:active {
+  color: #DEB887;
 }
+
 header nav ul li a:hover,
-
-.post-content p a:hover{
-    text-decoration: underline;
+.post-content p a:hover {
+  text-decoration: underline;
 }
-*/
+
 main {
   background-color: #FAEBD7;
   padding: 20px;
@@ -77,10 +66,9 @@ main article {
 }
 
 .post-content a {
-  /*text-decoration: $a;
-      color: $post-color;
-      font-size: 1.25em;
-  */
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.25em;
 }
 
 main article section figure img {
@@ -98,10 +86,10 @@ main article section figure img {
   color: #6495ED;
 }
 
-@media only screen and (min-width: 400px) {
-  body div {
+@media screen and (min-width: 380px) {
+  body {
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
   }
 }
 
