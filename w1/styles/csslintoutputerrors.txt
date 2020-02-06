@@ -1,0 +1,63 @@
+
+
+csslint: There are 12 problems in C:\Users\izzya\Desktop\wdd331\izzya1984.github.io\w1\styles\styles.css.
+
+styles.css
+1: warning at line 1, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
+styles.css
+2: warning at line 2, col 1
+Rule doesn't have all its properties in alphabetical order.
+header {
+
+styles.css
+3: warning at line 9, col 3
+Rule doesn't have all its properties in alphabetical order.
+  header ul {
+
+styles.css
+4: warning at line 14, col 3
+Rule doesn't have all its properties in alphabetical order.
+  header a {
+
+styles.css
+5: warning at line 17, col 10
+Heading (h1) should not be qualified.
+  header h1 {
+
+styles.css
+6: warning at line 24, col 15
+Heading (h2) should not be qualified.
+.post-content h2 a:active,
+
+styles.css
+7: warning at line 35, col 3
+Rule doesn't have all its properties in alphabetical order.
+  main article {
+
+styles.css
+8: warning at line 45, col 32
+Heading (h2) should not be qualified.
+    main article .post-content h2 {
+
+styles.css
+9: warning at line 45, col 5
+Rule doesn't have all its properties in alphabetical order.
+    main article .post-content h2 {
+
+styles.css
+10: warning at line 49, col 15
+Heading (h2) should not be qualified.
+.post-content h2 a:hover {
+
+styles.css
+11: warning at line 53, col 1
+Rule doesn't have all its properties in alphabetical order.
+.post-content a {
+
+styles.css
+12: warning at line 58, col 1
+Rule doesn't have all its properties in alphabetical order.
+main article section figure img {

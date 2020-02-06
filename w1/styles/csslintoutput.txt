@@ -1,0 +1,33 @@
+
+
+csslint: There are 6 problems in C:\Users\izzya\Desktop\wdd331\izzya1984.github.io\w1\styles\styles.css.
+
+styles.css
+1: warning at line 1, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
+styles.css
+2: warning at line 2, col 1
+Rule doesn't have all its properties in alphabetical order.
+header {
+
+styles.css
+3: warning at line 20, col 10
+Heading (h1) should not be qualified.
+  header h1 {
+
+styles.css
+4: warning at line 27, col 15
+Heading (h2) should not be qualified.
+.post-content h2 a:active,
+
+styles.css
+5: warning at line 53, col 21
+Heading (h2) should not be qualified.
+      .post-content h2 {
+
+styles.css
+6: error at line 56, col 17
+Expected a `FUNCTION` or `IDENT` after colon at line 56, col 17.
+      text-align: left;

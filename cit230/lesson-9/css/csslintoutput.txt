@@ -1,0 +1,252 @@
+
+
+csslint: There are 50 problems in C:\Users\izzya\Desktop\wdd331\izzya1984.github.io\cit230\lesson-9\css\small.css.
+
+small.css
+1: warning at line 30, col 8
+Heading (h1) should not be qualified.
+header h1{
+
+small.css
+2: warning at line 37, col 8
+Heading (h3) should not be qualified.
+header h3{
+
+small.css
+3: warning at line 64, col 5
+Using width with padding-right can sometimes make elements larger than you expect.
+    padding-right: 10px;
+
+small.css
+4: warning at line 87, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav button{
+
+small.css
+5: warning at line 103, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul{
+
+small.css
+6: warning at line 111, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul li a {
+
+small.css
+7: warning at line 116, col 5
+Fallback border (hex or RGB) should precede RGBA border.
+    border: 1px solid rgba(0,0,0,0.25)
+
+small.css
+8: warning at line 123, col 5
+Element (ul.hide) is overqualified, just use .hide without element name.
+nav ul.hide{
+
+small.css
+9: warning at line 127, col 1
+Rule doesn't have all its properties in alphabetical order.
+.clearfix:after{
+
+small.css
+10: warning at line 139, col 1
+Rule doesn't have all its properties in alphabetical order.
+.tablepic img{    
+
+small.css
+11: warning at line 143, col 1
+Rule doesn't have all its properties in alphabetical order.
+.weathersum{
+
+small.css
+12: warning at line 149, col 5
+Using width with border can sometimes make elements larger than you expect.
+    border: 1px solid #8d2e49;
+
+small.css
+13: warning at line 150, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding:5px;
+
+small.css
+14: warning at line 167, col 1
+Don't use IDs in selectors.
+#pancakes{
+
+small.css
+15: warning at line 167, col 1
+Rule doesn't have all its properties in alphabetical order.
+#pancakes{
+
+small.css
+16: warning at line 175, col 5
+Using width with padding-left can sometimes make elements larger than you expect.
+    padding-left: 20px;
+
+small.css
+17: warning at line 187, col 1
+Rule doesn't have all its properties in alphabetical order.
+.article{
+
+small.css
+18: warning at line 191, col 5
+Duplicate property 'margin' found.
+    margin:0 20px;
+
+small.css
+19: warning at line 194, col 1
+Rule doesn't have all its properties in alphabetical order.
+.articlediv{
+
+small.css
+20: warning at line 197, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 10px;
+
+small.css
+21: warning at line 200, col 1
+Rule doesn't have all its properties in alphabetical order.
+.articlepicture{
+
+small.css
+22: warning at line 208, col 1
+Don't use IDs in selectors.
+#contact{
+
+small.css
+23: warning at line 208, col 1
+Rule doesn't have all its properties in alphabetical order.
+#contact{
+
+small.css
+24: warning at line 211, col 5
+Using width with border can sometimes make elements larger than you expect.
+    border: 1px solid #3b5012;
+
+small.css
+25: warning at line 213, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 10px;
+
+small.css
+26: warning at line 216, col 1
+Don't use IDs in selectors.
+#contact h2{
+
+small.css
+27: warning at line 216, col 10
+Heading (h2) should not be qualified.
+#contact h2{
+
+small.css
+28: warning at line 216, col 10
+Heading (h2) has already been defined.
+#contact h2{
+
+small.css
+29: warning at line 237, col 1
+Rule doesn't have all its properties in alphabetical order.
+.contactinfo ul li a{
+
+small.css
+30: error at line 246, col 24
+Unexpected token '1fr' at line 246, col 24.
+grid-template-columns: 1fr 1fr;
+
+small.css
+31: warning at line 289, col 1
+Rule doesn't have all its properties in alphabetical order.
+.top input, .top select{
+
+small.css
+32: warning at line 290, col 1
+Expected (<color>) but found 'RGB(0 , 0 , 0 , 0.1)'.
+background-color: RGB(0,0,0,0.1);
+
+small.css
+33: warning at line 291, col 5
+Using width with border can sometimes make elements larger than you expect.
+    border: solid 1px #8d2e49;
+
+small.css
+34: warning at line 299, col 1
+Using width with padding can sometimes make elements larger than you expect.
+padding:.75rem;
+
+small.css
+35: warning at line 301, col 1
+The property -moz-appearance is compatible with -webkit-appearance and should be included as well.
+-webkit-appearance: none;
+
+small.css
+36: warning at line 306, col 1
+Rule doesn't have all its properties in alphabetical order.
+.chachaslide{
+
+small.css
+37: warning at line 312, col 1
+Rule doesn't have all its properties in alphabetical order.
+.dangerous {
+
+small.css
+38: warning at line 320, col 5
+Expected (<color>) but found 'RGB(0 , 0 , 0 , 0.1)'.
+    background-color: RGB(0,0,0,0.1);
+
+small.css
+39: warning at line 322, col 1
+Using height with border can sometimes make elements larger than you expect.
+border: solid 1px #8d2e49;
+
+small.css
+40: warning at line 322, col 1
+Using width with border can sometimes make elements larger than you expect.
+border: solid 1px #8d2e49;
+
+small.css
+41: warning at line 329, col 5
+Using width with padding-left can sometimes make elements larger than you expect.
+    padding-left: .5em;
+
+small.css
+42: warning at line 344, col 5
+Expected (flex-start | flex-end | center | space-between | space-around | stretch) but found 'left'.
+    align-content: left;
+
+small.css
+43: warning at line 347, col 5
+Using width with border can sometimes make elements larger than you expect.
+    border: 1px solid #54180b;
+
+small.css
+44: warning at line 353, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: .75rem 1.5rem;
+
+small.css
+45: warning at line 383, col 19
+Heading (h2) should not be qualified.
+.idahoans section h2 
+
+small.css
+46: warning at line 383, col 19
+Heading (h2) has already been defined.
+.idahoans section h2 
+
+small.css
+47: warning at line 389, col 19
+Heading (h3) should not be qualified.
+.idahoans section h3{
+
+small.css
+48: warning at line 389, col 19
+Heading (h3) has already been defined.
+.idahoans section h3{
+
+small.css
+49: warning at line 417, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 20px;
+
+small.css
+50: warning
+You have 3 h2s, 2 h3s defined in this stylesheet.

@@ -1,61 +1,71 @@
 header{
     background: #54180b;
-    font-family: 'Slabo 27px', serif;
     color: #fbecca;
-    width: 100%;
+    font-family: 'Slabo 27px', serif;
+  
     margin:0 auto; 
-    text-align: center;
     padding-top: 5px;
     position: relative;
-
+    
+    text-align: center;
+    width: 100%;
+   
     
 
 }
 header p a picture img{
+    margin-left: -500px;
+    margin-top: -20px;
+    
+    max-width: 100px;
+    
     position: absolute;
     width: 10%;
-    max-width: 100px;
-    margin-top: -20px;
-    margin-left: -500px;
+   
 }
-header.title {
+.title {
     margin: 0 auto;
     text-align: center;
 }
 header h1{
-    text-align: center;
-}
-header h3{padding-bottom: 20px;;
-}
-h1{
-    padding-top: 20px;
-}
-
-
-h1,h2{
     font-family: 'Slabo 27px', serif;
     margin: 0 auto;
+
+    padding-top: 20px;
+    text-align: center;
 }
- h3{
+header h3{
     font-family: 'Rubik', sans-serif;
     margin: 0 auto;
     
-    
+    padding-bottom: 20px;;
 }
+
+
+h2{
+    font-family: 'Slabo 27px', serif;
+    margin: 0 auto;
+
+    }
+ 
 
 footer{
     
     background: #54180b;
-    font-family: 'Slabo 27px', serif;
-    color: #fbecca;
-    width: 100%;
-    margin:0 auto; 
-    font-size: 10pt;
-    text-align: center;
-    padding-right: 10px;
-    line-height: 20px;
     border-top: 5px solid #fd8340;
-
+    
+    color: #fbecca;
+    font-family: 'Slabo 27px', serif;
+    
+    font-size: 10pt;
+    line-height: 20px;
+   
+    margin:0 auto; 
+    padding-right: 10px;
+    text-align: center;
+   
+    width: 100%;
+    
 
 
 }
@@ -64,12 +74,15 @@ footer{
 
 main{
     background: #fbecca;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
     border-bottom: 5px solid #54180b ;
     color: #54180b;
 
+    margin: 0 auto;
+    
+    text-align: center;
+    width: 100%;
+   
+   
 } 
 nav button{
     margin: .2rem 2%;
@@ -254,58 +267,68 @@ main picture img[data-src] {
     text-align: left;
   }
   form fieldset{ 
-  margin:2rem 0;
     border: 1px solid #8d2e49; 
     border-radius: 8px;
+    margin:2rem 0;
+ 
     padding: .5rem 2%;
   } 
 form legend{
-    font-size: 1.2rem;
     color: #54180b;
+   
+    font-size: 1.2rem;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
-form label.top{
+.top{
+    color: #54180b;
     display: block;
     padding-top: 1rem;
-    color: #54180b;
+   
 }
-form label.top input, form label.top select{
-    -webkit-appearance: none;
+.top input, .top select{
+background-color: RGB(0,0,0,0.1);
+    border: solid 1px #8d2e49;
+border-radius: 4px;
+
+color: #555;
 display: block;
 font-size: 1rem;
-border: solid 1px #8d2e49;
-border-radius: 4px;
-padding:.75rem;
-color: #555;
-width: 100%;
+
 max-width: 20rem;
-background-color: rgba(0,0,0,0.1);
+padding:.75rem;
+
+-webkit-appearance: none;
+    
+width: 100%;
  
 }
-form label.chachaslide{
+.chachaslide{
     display:flex ;
     align-items: center;
     padding-top: 15px;
 }
  
-form label.dangerous {
+.dangerous {
     display: block;
     padding-top: 1em;
     color:#555;
     line-height: 2em;
 }
 
-form label.comment input{
-    display: block;
-     width: 96%;
-    max-width: 20rem;
-    height: 100px;
-    background-color: rgba(0,0,0,0.1);
+.comment input{
+    background-color: RGB(0,0,0,0.1);
  
 border: solid 1px #8d2e49;
 border-radius: 4px;
-padding-left: .5em;
+
+    display: block;
+    height: 100px;
+    max-width: 20rem;
+    
+    padding-left: .5em;
+    width: 96%;
+    
 }
 form label.top input:required{
     border-left: red solid 6px;
@@ -318,42 +341,50 @@ form label.top input:required:valid{
 }
 
 form input.submitBtn{
-    border: 1px solid #54180b;
+    align-content: left;
+
     background-color: #3b5012;
-    color:#fbecca;
+    border: 1px solid #54180b;
+      
     border-radius: 1rem;
+    color:#fbecca;
     margin: 0 0 2rem 2%;
+    max-width: 20rem;
     padding: .75rem 1.5rem;
     width: 96%;
-    max-width: 20rem;
-    align-content: left;
-}
+   
+   }
 
 form input.submitBtn:hover{
     background-color: #8d2e49;
-    width:100%;
      max-width: 20rem;
+     width:100%;
+  
     
 }
 /***index***/
 
 .idahoans section{
     background-color: #54180b;
-    opacity: .6;
-
-    width: 90%;
-    color: #fbecca;
-    margin: 25px auto;
+    
     border-radius: 5px;
+    color: #fbecca;
+   
+    margin: 25px auto;
+    
+    opacity: .6;
     padding-top: 25px;
     transition-property: transform;
-      transition-duration:2s;
+      
+      width: 90%;
 
 }
 
-.idahoans section h2 {
-    font-size: 1.5em;
+.idahoans section h2 
+{
+    
     color: #fbecca;
+    font-size: 1.5em;
 }
 .idahoans section h3{
     font-size: .8em;
@@ -362,38 +393,48 @@ form input.submitBtn:hover{
 
 
 .idahoans section img{
-    width: 70%;
-    padding-bottom: 20px;
+    
+    
     border-radius: 8px;
+    padding-bottom: 20px;
+    width: 70%;
 }
 .idahoans section:hover{
+    
+    opacity: 1;
     transform: scale(1.2);
      
-    opacity: 1;
 }
 /*index article*/
 .indexp{
     background: #54180b;
+    
+    border-radius: 8px;
     color: #fbecca;
-    width: 85%;
-    padding: 20px;
     margin:0 auto;
     margin-bottom: 25px;
-    border-radius: 8px;
+    
+    padding: 20px;
+    width: 85%;
+  
 }
 .indexp picture img{
-    width: 80%;
-    margin: 0 auto;
     border-radius: 8px;
+  
+    margin: 0 auto;
+    width: 80%;
+    
 }
 .indexp article{
-    text-align: left;
     padding-top: 10px;
-}
+
+    text-align: left;
+  }
 .indexp p a{
-    text-decoration: none;
     color: #fd8340;
-}
+
+    text-decoration: none;
+    }
 .indexp p a:hover{
     text-decoration: underline;
 }

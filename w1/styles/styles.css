@@ -3,17 +3,20 @@ header {
   background-color: #6495ED;
   color: white;
   list-style-type: none;
-  text-decoration: none;
   text-align: right;
+  
+  text-decoration: none;
   padding: 40px 20px 20px; }
   header ul {
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif; }
+    
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none; }
     header ul li {
       padding-top: 15px; }
   header a {
+    color: white;
     text-decoration: none;
-    color: white; }
+  }
   header h1 {
     font-family: "Lora", serif; }
 
@@ -34,30 +37,40 @@ main {
   padding: 20px; }
   main article {
     background-color: white;
-    padding: 20px;
-    margin-bottom: 30px;
+    
     box-shadow: 5px 5px 5px #888888;
-    text-align: center; }
-    main article .post-date {
+    margin-bottom: 30px;
+    
+    padding: 20px;
+    text-align: center; 
+  }
+     .post-date {
       color: #888888;
       font-family: Arial, Helvetica, sans-serif;
-      text-align: left; }
-    main article .post-content h2 {
-      text-align: left;
+      text-align: left; 
+      text-decoration: none;
+     }
+      .post-content h2 {
       font-family: Arial, Helvetica, sans-serif; }
 
+      text-align: left;
+      
 .post-content h2 a:hover {
   color: #6495ED;
   text-decoration: underline; }
 
 .post-content a {
-  text-decoration: none;
   color: black;
-  font-size: 1.25em; }
+  font-size: 1.25em; 
+  text-decoration: none;
+ 
+}
 
 main article section figure img {
+  margin: 0 auto;
   width: 70%;
-  margin: 0 auto; }
+ 
+}
 
 .post-content p {
   font-family: Arial, Helvetica, sans-serif;
