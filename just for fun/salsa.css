@@ -1,0 +1,29 @@
+body{
+    background-color: pink;
+}
+.tortilla1{
+background-color: #fde8d0;
+width: 500px;
+height: 280px;
+border-radius: 50% / 100% 100% 0 0;
+position: absolute;
+z-index: 5;
+margin-left: 20px;
+}
+
+.tortilla2
+{
+    background-color: #cebdaa;
+    width: 500px;
+    height: 275px;
+    border-radius: 50% / 100% 100% 0 0;
+    position: absolute;
+    z-index:0;
+}
+.meat{
+    background-color: saddlebrown;
+    width: 455px;
+    position: absolute;
+
+border-radius: 8%;
+}
