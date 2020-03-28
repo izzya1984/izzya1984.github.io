@@ -1,0 +1,36 @@
+  body {
+    background-image: linear-gradient(to right,  $color-2,  $color-3);
+    background-size: 300% 300%;
+    animation: gradient 5s ease infinite;
+    color: $color-1;
+    padding:1em;
+  }
+  header{
+    font-size:2em;
+    h2{
+      font-size:1em;
+    }
+  }
+  .preamble, .explanation, .participation, .benefits, .requirements{
+    @include chunk;
+  
+  }
+  .summary{
+    font-size:1.3em;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .sidebar{
+      width: 100%;// can you make the column wider?
+      .select{ font-size: 1.2em;
+      }
+  }

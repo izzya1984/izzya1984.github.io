@@ -1,0 +1,72 @@
+body{
+    background-color: $color-3;
+    color: $color-1;
+    margin:0 .5em 0 .5em;
+    background-image: url("back-01500.jpg");
+    background-repeat: repeat-y;
+}
+.intro{
+    h1{
+        
+        font-family: 'Ultra' ;
+        font-weight: 500;
+        font-size:2em;
+
+    }
+    h2{
+        font-family: 'Open Sans' ;
+        font-size:1em;
+        
+    }
+}
+.summary{
+    font-family: 'Open Sans' ;
+    font-size:.8em;
+}
+.preamble, .main, .participation, .benefits, .requirements{
+    h3{
+        font-family: 'Ultra' ;
+        font-weight: 500;
+        font-size:1em;
+    }
+    font-family: 'Open Sans' ;
+    font-size:.8em;
+}
+
+.sidebar{margin: 0 auto;
+    background-color: $color-1;
+    border: 5px solid $color-3;
+color:$color-2;
+padding: .5em;
+    h3{
+        font-family: 'Ultra' ;
+    
+        font-size:1em;
+       }
+    ul{
+        li{
+            a{
+                color: $color-2;
+                text-decoration: none;
+                font-family: 'Open Sans' ;
+                font-size:.8em;
+                
+                .designer-name{
+                    font-size:.5em;
+
+                }
+
+            }
+            list-style-type: none;
+        }
+    }
+}
+p + p {
+    margin-top: 10px;
+}
+div{
+    margin-top: 10px;
+}
+footer{
+    margin: 10px auto;
+}

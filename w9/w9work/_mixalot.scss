@@ -1,0 +1,15 @@
+@mixin forlists {
+    font-size: .9em;
+    padding: .8em .8em .8em 1em;
+    border-bottom: solid .4px #b4b3b5 ;
+} 
+@mixin foricons { color: white;
+    text-align: right;
+  font-size: 2em;
+    float: right;
+    margin-top: -70px;
+    font-weight: bold;
+    margin-right: .5em;
+  
+    
+}

@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: $color-1;
+    border: solid 5px $color-3;
+    color: $color-2;
+    padding: .8em;
+    h3 {
+        font-family: 'Ultra';
+        font-size: 1em;
+    }
+
+    ul {
+        li {
+            .design-name{
+                &:hover{
+                    font-style: italic;
+                }
+               }
+        
+            a {
+                text-decoration: none;
+                font-family: 'Open Sans';
+                font-size: 1em;
+                line-height:1.4 ;
+                color: $color-2;
+                &:hover{
+                    color:$color-w;
+                }
+               
+                
+            
+
+}
+            
+        }
+    }
+    .archives, .resources{
+        margin-top: 1.5em;
+    }
+}

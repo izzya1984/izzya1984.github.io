@@ -1,0 +1,253 @@
+@import 'typography';
+@import 'icons';
+@import 'mixalot';
+
+$sm-break: 48em;
+// colors
+$dark-gray: #727272;
+$med-gray: #b4b3b5;
+$light-gray: #eaeaea;
+$body-font: #020202;
+$link-blue: #0076b6; //why do we have both of these blues?
+$byui-blue: #056cb6;
+
+header{
+  font-family: 'BYUI Open Sans';
+  width:100%;
+  background-color: $light-gray;
+border: solid .3px $med-gray;
+margin-bottom: 10px;
+h1{
+  padding-top: .5em;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding-left: 3em;
+}
+.icon-audience{
+  @include foricons;
+  
+  margin-right: 2.5em;
+ }
+ .icon-menu{
+   @include foricons;
+ }
+ .icon-search{
+   @include foricons;
+   margin-right: 4em;
+ }
+.icon-byui-logo{
+  background-color: $body-font;
+  color:white;
+  font-size: 1.2em;
+  padding:1em;
+}
+}
+//hero image
+// 3 column
+.grid-area{
+  display: grid;
+  margin-bottom: 2em;
+  row-gap: .5em;
+  
+  .hero{
+    width: 98%;
+    margin:0 auto;
+    img{
+      width: 100%;
+      margin:0 auto;
+    
+    }
+      
+    }
+    
+   
+  .caption{
+    font-family: 'BYUI Open Sans';
+    padding-left: .8em;
+    color: $link-blue;
+    font-size: .8em;
+  }
+  .2row{
+    width:80%;
+    border: solid 1px $med-gray;
+ 
+
+}
+}
+//list
+.list{
+   width:90%;
+  margin: 0 auto;
+  
+  font-family: 'BYUI Open Sans';
+  //for arrow icons
+  .icon-angle-right{
+    float: right;
+    padding-right: .5em;
+  }
+ 
+  //dropdwon
+  .drop{
+    background-color: $light-gray;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 1em;
+    padding:.8em;
+    
+  // border-radius: 3px;
+    border: solid .4px $med-gray;
+    .icon-triangle-down{
+      float: right;
+    }
+  }
+   .top{
+   background-color: $dark-gray;
+    color: white;
+   font-size: 1.5em;
+   padding: .5em;
+}
+ 
+  .info-list{
+    
+    border: solid .4px $med-gray;
+    width: 100%;
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  .listitem1{
+   @include forlists;
+    color: $link-blue;
+  
+  }
+}
+.date-list{
+  color: $body-font;
+  list-style-type: none;
+  
+  padding-left: 0;
+  .top1{
+    background-color:$byui-blue;
+    color: white;
+     margin-top: 10px;
+    font-size: 1.5em;
+    padding: .5em;
+
+ }
+  .listitem{
+   @include forlists;
+    
+  
+  
+ 
+}
+}
+}
+
+
+//news
+.news{
+  h1{
+    font-size: 1.3em;
+  }
+
+  width: 75%;
+  margin: 0 auto;
+  
+  font-family: 'BYUI Open Sans';
+  h3{
+    font-size: .6em;
+    padding-top: 1em;
+    border-top: solid .5px $med-gray;
+  }
+  h2{
+    color:$byui-blue;
+    font-size: 1.2em;
+  }
+  article{
+    p{
+      font-family: 'EB Garamond', serif;
+      font-size: 1em;
+    }
+   
+    img{
+      display: none;
+      padding-right: 1em;
+    }
+     }
+}
+//Devotional
+.devo{
+  width:80%;
+  border: solid .4px $med-gray;
+  margin: 0 auto;
+  
+  
+  .message{
+    background-color: $light-gray;
+    font-family: 'BYUI Open Sans';
+    padding: .8em;
+    margin:0 auto;
+    border-bottom: solid .4px $med-gray;;
+
+  }
+  img{
+    width:94%;
+    margin:  7px;
+    font-weight: bold;
+
+  }
+}
+// Utility classes
+// border: solid .5px black;
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+@media only screen and (min-width:600px){
+  .main-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2em;
+  
+ .grid-area{
+   display: grid;
+grid-template-columns: repeat(3, 1fr); 
+column-gap: 1em;
+.hero{
+  width: 100%;
+  grid-column: 1/5;
+
+}
+   }
+ 
+
+  
+    article{
+        
+  img{
+    display: inline;
+    float: left;
+    width: 15%;
+    max-width: 165px;
+  }
+
+    
+  }}}
+
+  

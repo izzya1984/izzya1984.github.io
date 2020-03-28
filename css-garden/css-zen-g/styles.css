@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Ultra&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #9ee575;
+  color: #3e3494;
+  margin: 0 0.5em 0 0.5em;
+  background-image: url("back-01500.jpg");
+  background-repeat: repeat-y;
+}
+
+.intro h1 {
+  font-family: "Ultra";
+  font-weight: 500;
+  font-size: 2em;
+}
+.intro h2 {
+  font-family: "Open Sans";
+  font-size: 1em;
+}
+
+.summary {
+  font-family: "Open Sans";
+  font-size: 0.8em;
+}
+
+.preamble, .main, .participation, .benefits, .requirements {
+  font-family: "Open Sans";
+  font-size: 0.8em;
+}
+.preamble h3, .main h3, .participation h3, .benefits h3, .requirements h3 {
+  font-family: "Ultra";
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.sidebar {
+  margin: 0 auto;
+  background-color: #3e3494;
+  border: 5px solid #9ee575;
+  color: #fcec5d;
+  padding: 0.5em;
+}
+.sidebar h3 {
+  font-family: "Ultra";
+  font-size: 1em;
+}
+.sidebar ul li {
+  list-style-type: none;
+}
+.sidebar ul li a {
+  color: #fcec5d;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 0.8em;
+}
+.sidebar ul li a .designer-name {
+  font-size: 0.5em;
+}
+
+p + p {
+  margin-top: 10px;
+}
+
+div {
+  margin-top: 10px;
+}
+
+footer {
+  margin: 10px auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
