@@ -44,7 +44,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -56,32 +56,34 @@ table {
 body {
   background-color: #9ee575;
   color: #3e3494;
-  margin: 0 0.5em 0 0.5em;
+  margin: 0 .5em 0 .5em;
   background-image: url("back-01500.jpg");
   background-repeat: repeat-y;
 }
 
 .intro h1 {
-  font-family: "Ultra";
+  font-family: 'Ultra';
   font-weight: 500;
   font-size: 2em;
 }
+
 .intro h2 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 1em;
 }
 
 .summary {
-  font-family: "Open Sans";
-  font-size: 0.8em;
+  font-family: 'Open Sans';
+  font-size: .8em;
 }
 
 .preamble, .main, .participation, .benefits, .requirements {
-  font-family: "Open Sans";
-  font-size: 0.8em;
+  font-family: 'Open Sans';
+  font-size: .8em;
 }
+
 .preamble h3, .main h3, .participation h3, .benefits h3, .requirements h3 {
-  font-family: "Ultra";
+  font-family: 'Ultra';
   font-weight: 500;
   font-size: 1em;
 }
@@ -91,23 +93,27 @@ body {
   background-color: #3e3494;
   border: 5px solid #9ee575;
   color: #fcec5d;
-  padding: 0.5em;
+  padding: .5em;
 }
+
 .sidebar h3 {
-  font-family: "Ultra";
+  font-family: 'Ultra';
   font-size: 1em;
 }
+
 .sidebar ul li {
   list-style-type: none;
 }
+
 .sidebar ul li a {
   color: #fcec5d;
   text-decoration: none;
-  font-family: "Open Sans";
-  font-size: 0.8em;
+  font-family: 'Open Sans';
+  font-size: .8em;
 }
+
 .sidebar ul li a .designer-name {
-  font-size: 0.5em;
+  font-size: .5em;
 }
 
 p + p {
@@ -121,5 +127,4 @@ div {
 footer {
   margin: 10px auto;
 }
-
 /*# sourceMappingURL=styles.css.map */

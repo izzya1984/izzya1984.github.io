@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee|Just+Another+Hand|Nanum+Gothic:400,700,800&display=swap');
+/* --------------------------------------------- */
+/* --------- Branding: Color Palette ----------- */
+/* --------------------------------------------- */
+/* These are the colors of the boxes under the Branding section */
+#swatch1{
+	background-color:#9f3254 ;
+}	
+#swatch2{
+	background-color: rgb(218,195,204);
+}	
+#swatch3{
+	background-color: #f89082;
+}	
+#swatch4{
+	background-color: #000000;
+}		
+
+/* ----------------------------------------------------- */
+/* --------- Typography: Heading & Body Copy ----------- */
+/* ----------------------------------------------------- */
+/* These are the font families of all the headings and body copy */
+
+body{
+	font-family:  'Nanum Gothic', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:'Handlee', cursive ;
+}
+
+
+/* -------------------------------------------------- */
+/* --------- Navigation: Main & Secondary ----------- */
+/* -------------------------------------------------- */
+/* Colors, style, floating, shapes, etc of main & secondary navs */
+
+/* Main Navigation Style */
+#mainnav{
+	
+	
+}
+#mainnav ul{
+
+}
+#mainnav li{ display: inline;
+	background-color: #9f3254; 
+	padding:10px;	
+
+}
+#mainnav a:link{
+	
+	color:rgb(218,195,204);
+	text-decoration: none;
+
+	/* other styles */
+}
+#mainnav a:visited{
+	color: #ffffff ;
+	font-size: .8em;
+	/* other styles */
+}
+#mainnav a:hover{
+	color: #f89082;
+	/* other styles */
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+#mainnav a:active{
+	color: #9f3254;
+	/* other styles */
+	
+}
+
+
+/* Secondary Navigation Style */
+#secondnav{
+
+}
+#secondnav ul{
+
+}
+#secondnav li{
+	 display: inline;
+	color:#f89082; 
+	padding: 10px;
+	border: 1px solid #f89082;
+	
+
+}
+#secondnav a:link{
+	color: #9f3254;
+	/* other styles */
+	text-decoration:none;
+}
+#secondnav a:visited{
+	color: #ffffff;
+	/* other styles */
+}
+#maisecondnavnnav a:hover{
+	color: #f89082;
+	/* other styles */
+}
+#secondnav a:active{
+	color: #9f3254;
+	/* other styles */
+}
+
+
+
+
+/* ----------------------------------- */
+/* --------- HTML Elements ----------- */
+/* ----------------------------------- */
+/* Styling for all HTML Elements */
+
+/* True for all headings */
+h1, h2, h3 ,h4, h5, h6{
+	color: #9f3254;
+}
+
+
+/* Style for individual headings */
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+
+/* List Styles */
+ul{
+
+}
+ul li{
+
+}
+b
+ol{
+
+}
+ol li{
+
+}
+
+
+/* Non-Navigational Link Styles */
+/* This is for all default links on your page */
+a:link{color: #f89082;
+	text-decoration: underline;
+
+
+}
+a:visited{
+	font-size: .7em;
+
+}
+a:hover{font-size: 1.5em;
+
+}
+a:active{
+	font-style: italic;
+
+}
+
+/* This is for secondary link styles (possibly in your footer, etc) */
+.linkstyle2 a:link{
+
+}
+.linkstyle2 a:visited{
+
+}
+.linkstyle2 a:hover{
+
+}
+.linkstyle2 a:active{
+
+}
+
+
+/* Paragraph Styles */
+p{
+	color: #9f3254;
+	/* Other paragraph styles */
+}
+
+
+/* Figure and Figcaption Styles */
+figure{
+	text-align: center;
+
+}
+figure img{
+	width:60%;
+	margin: 0 auto;
+
+}
+figcaption{
+	
+font-size: .6em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+/* --------- Style Guide CSS ----------- */
+/* ------------------------------------- */
+/* The following CSS is used for the styling of the structure of the Style Guide itself */
+body{
+	width: 700px;
+	margin: 10px auto;
+	border: 1px solid #777;
+	padding: 20px;
+}
+
+.styleguide{
+	font-family:  'Nanum Gothic', sans-serif;
+
+}
+ picture img{
+	margin:0 auto;
+	width:90%;
+}
+h1.styleguide, h2.styleguide, h3.styleguide, h4.styleguide, h5.styleguide, h6.styleguide{
+	color: #777;
+	
+	font-family:'Handlee', cursive ;
+}
+h2.styleguide{
+    background-color: #777;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: -15px;
+    color: white;
+}
+p.styleguide{
+	color: #777;
+	font-family: "Courier New", Courier, monospace;
+}
+
+section{
+    margin-top: -10px;
+    margin-bottom: 70px; 
+}
+.colorgroup{
+    float: left;
+    width: 170px;
+}
+.colorgroup h4{
+	font-size: .9em;
+}
+.colorgroup p{
+    font-size: .8em;
+}
+.clear{
+    clear: both;
+}
+.swatches{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}

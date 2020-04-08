@@ -1,0 +1,48 @@
+main{
+    width:66%;
+    
+    background-color: darkslateblue;
+    color: floralwhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 2em;
+    margin:1em auto;
+    
+border-radius: 3px;
+   
+    img{
+        margin-top: 5px;
+        width: 25%;
+        float: right;
+        
+border-radius: 3px;
+   
+    }
+   
+    h2{
+        font-size: 1.5em;
+        
+    }
+    ul{
+        li{
+            line-height: 2em;
+        a{
+            text-decoration: none;
+            color: floralwhite;
+            &:visited{
+                color: grey;
+            }
+
+            &:hover{
+                font-style: italic;
+                transition-delay: 1s;
+            }
+            &:active{
+                text-decoration: underline;
+            }
+
+        }
+    }
+    }
+   
+}

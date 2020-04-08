@@ -1,0 +1,461 @@
+body{
+    width: 85%;
+    margin:0 auto;
+    min-width: 265px;
+}
+header{
+    margin:0 auto;
+    background-color: #9f3254;
+    color: #f89082;
+padding-bottom: 15px;
+}
+header h1{
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+header h2{
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+header picture img{
+    width:20%;
+    display: block;
+    padding-top: 15px;
+    margin:0 auto;
+    max-width: 180px;
+}
+header ul{
+    text-align: center;
+}
+ul.dorks{
+    padding-left: 0px;
+    margin:0 auto;
+    scroll-padding-bottom: 15px;
+}
+header ul li{
+    display: inline;
+    text-align: center;
+    padding-bottom: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #f89082;
+    font-family: 'Handlee', cursive;
+    padding:4px;
+    border: 2px solid #f89082;
+    font-size: 1em;
+}
+
+main{
+    background-color: #f8f6f2;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+} main h2{
+    font-family:    'Handlee', cursive;
+    text-align: center;
+    color: #9f3254;
+
+}
+main p {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    color: #9f3254;
+    padding: 20px;
+
+}
+main nav ul{
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-bottom: 20px;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
+}
+main nav ul li {
+    text-decoration: none;
+    text-align: center;
+    
+    border-bottom: 1px solid black;
+    background-color: #f89082;
+    color: #8d2e49;
+    padding: 10px;
+}
+main nav ul li a {
+    text-decoration: none;
+    color: #9f3254;
+    padding:20px;
+    font-size: 1em;
+}
+/*lvhfa**/
+
+main nav ul li a:visited{
+    color: white;
+}
+
+main nav ul li:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: #f89082;
+}
+
+main nav ul li a:focus{
+    
+}
+
+main nav ul li a:active{
+    background-color: #9f3254;
+}
+main div.home{
+    text-align: center;
+}
+main div picture img{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+padding-bottom: 10px;
+}
+main div{
+    margin:0 auto;
+}
+main div img{
+    padding-top:10px;
+    width:60%;
+    margin:0 auto;
+}
+.attribution{
+    text-align: center;
+}
+.attribution a{
+    text-align: center;
+    font-size: .5em;
+    text-decoration: none;
+    color: #f89082;
+}
+/*****Story****/
+.story {
+    width: 89%;
+    margin:0 auto;
+    background-color: #f89082;
+    padding:9px;
+    color: #9f3254;
+    border-radius: 8px;
+    text-align: center;
+}
+.story h2{
+    font-family: 'Handlee', cursive;
+}
+.story section{
+    text-align: justify;
+    padding: 15px;
+    
+}
+
+.story section img{
+    border-radius: 8px;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+/*blog*/
+
+.blog{
+    color: #9f3254;
+
+}
+
+
+.blog section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f89082;
+    border-radius: 8px;
+    text-align: justify;
+    padding: 18px;
+}
+.blog section blockquote{
+font-size: 1.4em;
+font-weight: bold;
+
+}
+.blog section h3{
+    font-family: 'Handlee', cursive;
+    font-size: 1.5em;
+}
+.blog img{
+    border-radius: 8px;
+    padding:10px;
+}
+/*contact form*/
+.contact{
+    color:#9f3254;
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+}
+.contact h1{
+    font-family: 'Handlee', cursive;
+}
+form {
+    text-align: left;
+    width:80%;
+    margin:0 auto;
+  }
+  form fieldset{ 
+  margin:2rem 0;
+    border: 1px solid #8d2e49; 
+    border-radius: 8px;
+    padding: .5rem 2%;
+  } 
+form legend{
+    font-size: 1.2rem;
+    color: #54180b;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+.top{
+    display: block;
+    padding-top: 1rem;
+    color: #54180b;
+}
+.top input, .top select{
+    -webkit-appearance: none;
+display: block;
+font-size: 1rem;
+border: solid 1px #8d2e49;
+border-radius: 4px;
+padding:.75rem;
+color: #555;
+width: 80%;
+max-width: 20rem;
+background-color: rgba(0,0,0,0.1);
+ 
+}
+
+.comment input{
+    display: block;
+     width: 96%;
+    max-width: 20rem;
+    height: 100px;
+    background-color: rgba(0,0,0,0.1);
+ 
+border: solid 1px #8d2e49;
+border-radius: 4px;
+padding-left: .5em;
+}
+
+.submitBtn{
+    border: 2px solid #f89082;
+    background-color: #9f3254;
+    color:#f8f6f2;
+    border-radius: 1rem;
+    margin: 0 0 2rem 2%;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'Handlee', cursive;
+}
+
+.submitBtn:hover{
+    background-color: #f89082;
+    width:100%;
+     max-width: 20rem;
+    
+}
+.thanks{
+    background-color: #f89082;
+    color: #8d2e49;
+    font-family: 'Handlee', cursive;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+/*tour */
+ .dates{
+    background-color: #f89082;
+    width: 80%;
+    border-radius: 8px;
+    color: #9f3254;
+    padding:15px;
+}
+.dates h2{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    padding-top: 15px;
+
+}
+.dates ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #9f3254;
+}
+.dates ul li a:hover{
+    text-decoration: underline;
+}
+/*merch*/
+
+.cart {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 5px;
+   
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .cart button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #9f3254;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  main div.cart button:hover,  main div.checkout button:hover {
+    opacity: 0.7;
+  }
+  main div.checkout{
+      width: 40%;
+      margin:0 auto;
+  }
+  main div.checkout button{
+    border: 1px solid #f89082;
+    padding: 20px;
+    color: white;
+    background-color: #9f3254;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em;
+    font-family: 'Handlee', cursive;
+  }
+footer{
+    text-align: center;
+    font-size: .7em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #9f3254;
+    color: #f89082;
+    margin-top: 0;
+}
+footer ul{
+    list-style: none;
+    padding:0;
+}
+footer ul li{
+    display: inline;
+    
+
+}
+footer ul li a{
+    text-decoration: none;padding: 10px;
+}
+footer ul li a img{
+    width:4%;
+ }
+ .guide{
+     color: #f89082;
+     text-decoration: none;
+ }
+ .guide:hover{
+     text-decoration: underline;
+ }
+ /**medium query**/
+ @media only screen and (min-width:600px){
+    header img{
+        width:15%;
+        padding-top: 15px;
+        padding-left: 50px;
+        float: left;
+        margin:0 auto;
+    }
+    .story section img{
+        float:left;
+        width: 65%;
+        max-width: 180px;
+
+    }
+    .story section{
+        
+    column-count: 2;
+    }
+    .blog{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+      }
+      .blog img{
+        float: right;
+        width: 40%;
+        max-width: 280px;
+        padding-right: 5px ;
+    }
+
+.merch{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+}
+}
+/***large query***/
+@media only screen and (min-width:900px){
+    
+    nav{
+        padding-bottom: 20px;
+    }
+    nav ul{
+        background-color: #f89082;
+    border:none;}
+    main nav ul li{
+        display: inline;
+        border:none;
+        
+        padding-top: 0;
+
+
+    }
+    main nav ul li a{
+        font-size: 1.25em;
+        
+        padding-top: 10px;
+    }
+    footer ul li a{
+        padding: 5px;
+    }
+    footer ul li a img{
+        width:2%;
+     }
+
+.merch{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+}
+/**wide screens**/
+@media only screen and (min-width:1300px){
+  body{
+      width: 70%;
+      margin: 0 auto;
+  }
+
+header img{
+    max-width: 200px;
+}
+
+}

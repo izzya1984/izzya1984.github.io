@@ -1,16 +1,19 @@
-.whole{
-  font-family: 'ZCOOL XiaoWei', serif;
-    background-color: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&display=swap');
+body{
+    background-image: url("images/space.jpg");
   
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
 .heading,.foot{
+  font-family: 'Cinzel', serif;
+
+
     text-align: center;
     font-size: 2em;
-  color: #0049b7;
- background-color: #f75990; 
+  color: darkslateblue;
+ background-color: plum; 
  
  
 }
