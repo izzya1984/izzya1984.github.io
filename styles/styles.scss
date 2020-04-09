@@ -1,13 +1,17 @@
 @import "normalize";
 @import "header";
 @import "main";
+@import "frames";
 @import "footer";
-
+html{
+    
+    background-color:#000000;
+    min-width: 278px;
+}
 
 body{
-    background-image: url("space.jpg");
 
-    background-color: plum;
-    background-size: 100%;
+
+    background-size: 90%;
 
 }
