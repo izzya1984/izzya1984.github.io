@@ -1,0 +1,42 @@
+nav{
+    .side-menu{ 
+        background-color: $lightBlue;
+    width:200px;
+    height: 100%;
+    position: fixed;
+    
+    top:0;
+    left:0;
+        margin-left: -200px;
+        transition: .5s;
+        ul{
+            
+        list-style-type: none;
+    li{margin-top:50px;
+        
+        font-weight: 600;
+        a{
+            font-family: 'Montserrat', sans-serif;
+            color: darkslateblue;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition-delay: .3s;
+
+            &:visited{
+                color: darkslategray;
+            }
+            &:hover{
+                color: white;
+              }
+            &:active{
+                text-decoration: underline;
+            }
+        }
+    }
+    }  
+}
+}
+.arrow-expand{
+    position: fixed;
+bottom: 50%;
+}

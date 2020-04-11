@@ -348,16 +348,15 @@ header {
   margin: 5px auto;
   border-radius: 3px;
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.2em;
   text-align: left;
 }
 
 header h1 {
   font-size: 2em;
-  color: darkslateblue;
 }
 
 header h1 a {
+  color: darkslateblue;
   text-decoration: none;
 }
 
@@ -375,10 +374,6 @@ header img {
 @media only screen and (min-width: 600px) {
   header {
     font-size: 2.5em;
-    color: darkslateblue;
-  }
-  header h1 img {
-    display: inline;
   }
   header h3 {
     font-size: 1em;
@@ -388,27 +383,21 @@ header img {
 main {
   text-align: left;
   width: 100%;
-  color: floralwhite;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  margin: 2em auto;
-  border-radius: 3px;
-}
-
-main img {
-  margin: 0 auto;
-  float: none;
-  width: 25%;
-  min-width: 150px;
-  max-width: 500px;
-  padding: 2em;
+  margin: .5em auto;
   border-radius: 3px;
 }
 
 main .content {
+  color: white;
   padding: 2em;
-  margin-top: .8em;
-  font-size: .8em;
+  margin-left: .8em;
+  font-size: 1em;
+}
+
+main .content .about img {
+  width: 80%;
+  border-radius: 4px;
 }
 
 main .content ul li {
@@ -417,7 +406,6 @@ main .content ul li {
 
 main .content ul li a {
   text-decoration: none;
-  color: floralwhite;
 }
 
 main .content ul li a:visited {
@@ -427,8 +415,8 @@ main .content ul li a:visited {
 main .content ul li a:hover {
   font-style: italic;
   color: #c6cff8;
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
 }
 
 main .content ul li a:active {
@@ -436,15 +424,67 @@ main .content ul li a:active {
 }
 
 @media only screen and (min-width: 600px) {
-  main main img {
-    margin: 5px 0 0 50px;
+  main .content {
+    font-size: 1.2em;
   }
-  main main .content h2 {
-    font-size: 2.5em;
+  main .about {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
   }
-  main main .content ul li {
-    font-size: 1.5em;
+  main .about img {
+    width: 100%;
+    border-radius: 2px;
   }
+}
+
+nav .side-menu {
+  background-color: #96cee7;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: -200px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+nav .side-menu ul {
+  list-style-type: none;
+}
+
+nav .side-menu ul li {
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+nav .side-menu ul li a {
+  font-family: 'Montserrat', sans-serif;
+  color: darkslateblue;
+  text-decoration: none;
+  font-size: 1.2em;
+  -webkit-transition-delay: .3s;
+          transition-delay: .3s;
+}
+
+nav .side-menu ul li a:visited {
+  color: darkslategray;
+}
+
+nav .side-menu ul li a:hover {
+  color: white;
+}
+
+nav .side-menu ul li a:active {
+  text-decoration: underline;
+}
+
+.arrow-expand {
+  position: fixed;
+  bottom: 50%;
 }
 
 .frames {
@@ -507,12 +547,12 @@ footer ul li a img {
 }
 
 html {
+  width: 100%;
+  margin: 0 auto;
   background: linear-gradient(45deg, #c6cff8, #233775, #96cee7, #3f9cc5, #ba7ab6);
-  background-size: 600% 100%;
+  background-size: 600%;
   -webkit-animation: gradient 16s linear infinite;
           animation: gradient 16s linear infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
   min-width: 278px;
 }
 
@@ -523,9 +563,6 @@ html {
   50% {
     background-position: 100% 50%;
   }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 @keyframes gradient {
@@ -534,9 +571,6 @@ html {
   }
   50% {
     background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Itzel Aguilar</title>
+    <title>Itzel Aguilar | Home</title>
+    <script defer src="slider.js"></script>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="images/fab-icon16.png" type="image/x-icon">
 
@@ -12,66 +13,89 @@
 
 <body>
     <header>
-        <div class="heading">
-            <h1><a href="index.html"> Itzel Aguilar</a> </h1>
-            <h3>Front End Web Developer</h3>
-        </div>
+        <h1><a href="index.html"> Itzel Aguilar</a> </h1>
+        <h3>Front End Web Developer</h3>
+
     </header>
-    <main>
-        <img src="images/headshot.jpg" alt="Itzel's picture">
-<div class="content">
-    
-    <h2>Portfolio</h2>
-
-
+    <nav>
+        <!--Slidin' menu-->
+       
+<div id="sideMenu" class="side-menu" onmouseleave="closeMenu()">
     <ul>
-
-        <li> CIT230 / Weather Site <p><a href="cit230/index.html">Assigments</a></p> </li>
-        <li> CIT230 / Final Hotel Project <p><a href="cit230/final-project/index.html"> Temple Inn</a></p> </li>
-
-        <li> COM310 / Creating Online Media <p><a href="oud/index.html"> Dork website</a></p> </li>
-
-
-        <li> Wireframes <p><a href="frames.html">Desktop & Mobile </a></p> </li>
+        <li> <a href="index.html" >Home</a>
+        </li>
         
-      
-
-
-        <li>Lesson 02: <a href="">tba</a> </li>
-        <li>Module 7: <a href="w7/cardgrid.html">Cards</a></li>
-
-        <li>Module 7: <a href="../../week_13/index.html">garden</a></li>
-
-        <li> Find Me on  CodePen <p><a href="https://codepen.io/izzya1984"> izzya1984</a></p> </li>
-        <li> Find Me on  Behance <p><a href="https://www.behance.net/gar17055781e"> izzya1984</a></p> </li>
-
+        <li> <a href="about.html" >About Itzel</a>
+        </li>
+        <li> <a href="contact.html" >Contact</a>
+        </li>
+        <li> <a href="resume.html" >Resume</a>
+        </li>
     </ul>
+</div>   
+<img src="images/iconfinder_ic_keyboard_arrow_right_48px_352468.svg" alt="Arrow Icon" class="arrow-expand"
+onmouseover="openMenu()">
+    </nav>
+    <main>
+        <div class="content" onclick="closeMenu()">
 
-   
-</div>
-    
- </main>
+            <h2>Portfolio</h2>
+
+
+
+            <ul>
+
+                <li> CIT230 / Weather Site <p><a href="cit230/index.html">Assigments</a></p>
+                </li>
+                <li> CIT230 / Final Hotel Project <p><a href="cit230/final-project/index.html"> Temple Inn</a></p>
+                </li>
+
+                <li> COM310 / Creating Online Media <p><a href="oud/index.html"> Dork website</a></p>
+                </li>
+
+
+                <li> Wireframes <p><a href="frames.html">Desktop & Mobile </a></p>
+                </li>
+
+
+                <li> Prototyping <p><a href="frames.html">Various Projects </a></p>
+                </li>
+
+
+
+                <li> Find Me on CodePen <p><a href="https://codepen.io/izzya1984"> izzya1984</a></p>
+                </li>
+                <li> Find Me on Behance <p><a href="https://www.behance.net/gar17055781e"> Itzel Garcia</a></p>
+                </li>
+
+            </ul>
+
+
+        </div>
+
+    </main>
 
 
 
 
-    <footer> 
+    <footer>
         <ul>
-            <li><a target="_blank" href="https://www.facebook.com/izzya1984"><img src="images/hiclipart.com-id_facebook.png" alt="Facebook"></a></li>
-        
-            <li><a target="_blank" href="https://www.instagram.com/izzya1984"><img src="images/hiclipart.com-id_insta.png" alt="Instagram"></a></li>
-        
-           </ul>
-        
-        <script>
-        var date = document.lastModified;
-        document.write("Last Modified: " + date);
-    </script>
-     <p>&copy; <script>
-        document.write(new Date().getFullYear());
-    </script>|Itzel Aguilar
-    </p>
-</footer> 
- </body>
+            <li><a target="_blank" href="https://www.facebook.com/izzya1984"><img
+                        src="images/hiclipart.com-id_facebook.png" alt="Facebook"></a></li>
 
+            <li><a target="_blank" href="https://www.instagram.com/izzya1984"><img
+                        src="images/hiclipart.com-id_insta.png" alt="Instagram"></a></li>
+
+        </ul>
+
+        <script>
+            var date = document.lastModified;
+            document.write("Last Modified: " + date);
+        </script>
+        <p>&copy; <script>
+                document.write(new Date().getFullYear());
+            </script>|Itzel Aguilar
+        </p>
+    </footer>
+</body>
 </html>

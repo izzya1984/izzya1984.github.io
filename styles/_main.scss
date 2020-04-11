@@ -1,76 +1,69 @@
-main{
+main {
     text-align: left;
-    width:100%;
-  
-  color: floralwhite;
+    width: 100%;
+
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    margin:2em auto;
-    
-border-radius: 3px;
-   
-    img{
-      margin:0 auto;
-      float: none;
-      width: 25%;
-      min-width: 150px;
-      max-width: 500px;
-      padding: 2em;
-      
-border-radius: 3px;
- 
-  }
-    .content{
+    margin: .5em auto;
+
+    border-radius: 3px;
+
+
+    .content {
+
+
+        color: white;
         padding: 2em;
-        margin-top: .8em;
-        font-size: .8em;
-        ul{
-            li{
+        margin-left: .8em;
+        font-size: 1em;
+.about{
+    img{
+        width: 80%;
+        border-radius: 4px;
+    }
+}
+        ul {
+            li {
                 line-height: 2em;
-            a{
-                text-decoration: none;
-                color: floralwhite;
-                &:visited{
-                    color:$blueGreen;
+
+                a {
+                    text-decoration: none;
+
+                    &:visited {
+                        color: $blueGreen;
+                    }
+
+                    &:hover {
+                        font-style: italic;
+                        color: $mermaidPurple;
+                        transition-delay: .5s;
+                    }
+
+                    &:active {
+                        text-decoration: underline;
+                    }
+
                 }
-    
-                &:hover{
-                    font-style: italic;
-                    color: $mermaidPurple;
-                    transition-delay: 1s;
-                }
-                &:active{
-                    text-decoration: underline;
-                }
-    
             }
         }
+    }
 }
-}
+    @media only screen and (min-width: 600px) {
 
-@media only screen and (min-width: 600px){
-
-    main{
-       
-        img{
-            margin: 5px 0 0 50px;
-         
-        }
+        main {
         .content{
-       
-        h2{
-            font-size: 2.5em;
-            
-        }
-        ul{
-            li{
-            font-size: 1.5em;
+            font-size: 1.2em;
+        } 
+        .about{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-column-gap: 1em;
+            img{
+                width: 100%;
+                border-radius: 2px;
             }
         }
+        
         }
     }
-       
-    }
 
- 
-}
+

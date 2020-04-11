@@ -8,12 +8,12 @@ header{
   
   font-family: 'Montserrat', sans-serif;
 
-line-height: 1.2em;
     text-align: left;
   h1{
     font-size:2em ;
-    color: darkslateblue;
     a{
+      color: darkslateblue;
+   
       text-decoration: none;
     }
   
@@ -33,13 +33,6 @@ line-height: 1.2em;
 
     header{
           font-size: 2.5em;
-        color: darkslateblue;
-      h1{
-        img{
-          display: inline;
-        }
-      
-      }
        h3{
         font-size: 1em;
        }

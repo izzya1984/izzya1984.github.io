@@ -2,13 +2,15 @@
 @import "colors";
 @import "header";
 @import "main";
+@import "slider";
 @import "frames";
 @import "footer";
 html{
+    width:100%;
+    margin:0 auto;
     background: linear-gradient(45deg, $mermaidPurple, $darkBlue, $lightBlue,$blueGreen,$mermaidPink);
-    background-size: 600% 100%;
+    background-size: 600%;
     animation: gradient 16s linear infinite;
-    animation-direction: alternate;
 
     min-width: 278px;
 }
@@ -19,8 +21,5 @@ html{
     50% {
       background-position: 100% 50%;
     }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
+   
+}
