@@ -450,6 +450,7 @@ nav .side-menu {
   margin-left: -200px;
   -webkit-transition: .5s;
   transition: .5s;
+  z-index: 1;
 }
 
 nav .side-menu ul {
