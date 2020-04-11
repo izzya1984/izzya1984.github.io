@@ -427,6 +427,9 @@ main .content ul li a:active {
   main .content {
     font-size: 1.2em;
   }
+  main .content .skills .skill-title {
+    font-weight: 600;
+  }
   main .about {
     display: -ms-grid;
     display: grid;

@@ -52,6 +52,16 @@ main {
         main {
         .content{
             font-size: 1.2em;
+            .resume{
+                ul{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                }
+               
+                .skill-title{
+                    font-weight: 600;
+                   
+            }
         } 
         .about{
             display: grid;

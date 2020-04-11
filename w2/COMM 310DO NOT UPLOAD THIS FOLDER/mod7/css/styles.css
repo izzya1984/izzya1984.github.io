@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+/*font-family: 'Arvo', serif;*/
+html{
+    box-sizing: border-box;
+}
+*,*:before, *;after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0% 10px;
+    margin-top: 20px;
+}
+header nav button{
+    display:none;
+}
+
+header nav li{
+    display: inline;
+    line-height: 55px;
+    float: right;
+}
+
+header nav li a:link, header nav a:visited{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #001430;
+    width: 100%;
+    text-align: center;
+    
+}
+header nav ul li a:hover{
+    background: #001430;
+    color: white;
+}
+header nav a:active{
+    background: #001430;
+    color: gray;
+}
+.nomargin{
+    margin: 0 0;
+}
+.edge{
+    margin: 0 30px;
+}
+div.conference{
+    position: relative;
+}
+   main .centerimage img{
+   
+       margin-top: .5em;
+       width:100%;
+      
+       position: static;
+       min-width: 400px;
+}
+ .centerparagraph{
+    
+    position: absolute;
+     color: white;
+      margin-top:-205px;
+    margin-left: 30px;
+      text-shadow: 2px 2px 2px gray;
+}
+main nav{
+    margin: 0 auto;
+}
+
+main nav section {
+     background: #001430;
+    margin: 2px 0px;
+    display: inline-block;
+width:23%;
+    
+} 
+main nav section img{
+    width: 100%;
+}
+
+main nav section div{
+    font-size: .9em;
+    line-height: 1em;
+    padding: 10px 10px 15px 10px;
+}
+main nav a:link, main nav a:visited{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+main nav a:hover img{
+    opacity: .5;
+}
+man nav a:hover div{
+    color: gray;
+}
+main nav a:active div{
+    text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-family: 'Arvo', serif;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.25em;
+}
+h4{
+    font-size: 1em;
+}
+p{
+    font-size: 1em;
+    margin:10px 0px;
+    line-height: 1.3em;
+}
+.quote{
+       position: relative;
+
+}
+blockquote{
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.4em;
+    padding: 20px 30px;
+    color:#828c9a;
+    font-style: italic;
+    margin-left: 18px;
+ }
+blockquote:before{
+    content:'"';
+    font-size: 5em;
+    position: absolute;
+    left: 1px;
+  top:35px;
+}
+blockquote:after{
+    content:'"';
+    font-size: 5em;
+    position: absolute;
+    left: 600px;
+  top:145px;
+
+    
+    
+}
+q{
+    text-decoration: underline;
+}
+
+q:before, q:after{
+    content:'"';
+    
+}
+strong{
+    font-weight: bold;
+    
+}
+em{
+    font-style:  italic;
+}
+main ul{
+    list-style-type: disc;
+}
+main ol{
+    list-style-type: decimal;
+}
+main ul, main ol{
+    line-height: 2em;
+    list-style-position: inside;
+}
+main ol ul, main ol ul, main ol ol, main ul ul{
+    padding-left: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    color: #777777;
+}
+.columns{
+    display: flex;
+}
+article{
+    margin: 5px 0px;
+    padding:20px;
+}
+ article .leftside {
+    width:30%;
+
+    max-width: 800px;
+     
+}
+
+article .leftside img{
+    width:100%;
+    margin: 0 5px;
+    
+}
+main article .columns .author{
+    width:65%;
+    margin: 0 30px; 
+    }
+.oddarticle{
+    background: #dddddd;
+}
+
+.by{
+    font-weight: bold;
+}
+article .button{
+    border:1px solid #001430;
+    padding: 10px;
+    color:#001430;
+    display: inline-block;
+    font-size: .8em;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+.button:visited{
+    color: #666666;
+    border: 1px solid #001430;
+   
+}
+.button:hover{
+    color:white;
+    border: 1px solid #666666;
+     background: #001430;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.button:active{
+    color: white;
+    text-decoration: underline;
+    background: #001430;
+}
+footer{
+     background: #001430;
+    color: white;
+    line-height: 1.25em;
+    font-size: .8em;
+    margin-top:50px;
+    text-align: center;
+    padding: 30px;
+}
+footer p{
+    line-height: .4em;
+}
+.social li{
+    display: inline-block;
+}
+
+footer a:link, footer a:visited{
+    color: #999;
+}
+footer a:active{
+    #ffffff;
+}

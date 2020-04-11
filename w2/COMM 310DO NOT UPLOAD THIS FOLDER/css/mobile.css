@@ -1,0 +1,159 @@
+/*RENAME THIS FIL TO MOBILE*/
+
+header{
+    font-family: 'Open Sans', sans-serif;
+    width: 95%;
+    margin-left: 20px;
+}
+header img{
+    margin-top: 10px;
+    }
+header ul li {
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+
+    /*display: flex;*/
+    align-content: center;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+       background-size: 98%;
+}
+header ul li a:hover{
+    color: white;
+    background-color: #09162f;
+    width:100%;   
+    background-size: 98%;
+}
+header ul li a:visited{
+    font-weight:500;
+}
+main{
+    /*margin-left: 40px;*/
+        font-family: 'Open Sans', sans-serif;
+    width: 95%;
+    max-width: 599px;
+    font-size: .8em;
+    margin: 0 auto;
+
+}
+main h1{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    line-height: 40px
+        
+}
+main ul li{
+    display: block;
+}
+main ul li {
+    width:98%;
+    
+}
+main h2 {
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 30px;
+
+}
+main h3{
+    font-weight: bold;
+    line-height: 28px;
+    font-size: .7em;
+}
+main q:before, q:after{
+    content:'"';
+    
+}
+main blockquote:before, blockquote:after{
+    content:'"';
+    color:#8390a5;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+/*********************************************/ 
+.hunter,.burton{
+    
+    background-color: #dddede;
+    padding: 20px 15px 15px 20px;
+    
+}
+ /*#hunter h2{
+  font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size-adjust: 3em;
+}*/
+main h3{
+    font-weight: bold;
+}
+main img{
+    width:98%;
+    max-width: 800px;
+    padding-right: 0;
+}
+main blockquote{
+    color:#8390a5;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    
+}
+main a{
+    border: 1px solid darkblue;
+    text-decoration: none;
+    color: darkblue;
+    padding: 5px;
+    font-size: .8em;
+}
+main a:hover{
+    background-color: #09162f;
+    color: white;
+}
+main a:active{
+    background-color: darkblue;
+    color: white;
+    text-decoration: underline;
+
+}
+main a:visited{
+    color:darkgray; /*don't forget to change*/
+    border: 1px solid #9a9b9a;
+     padding: 5px;
+}
+article .hunter img{
+    padding-right: 0;
+}
+.hunter ol li li{
+    color: #9a9b9a;
+}
+.eyring, .oscarson{
+    
+    background-color: white;
+    padding: 20px 15px 15px 20px;
+    margin-top: 10px;
+}
+.eyring ul li{
+    line-height: 1.8em;
+}
+footer{
+       font-family: 'Open Sans', sans-serif;
+    font-size: .7em;
+    background-color: #09162f;
+    color:white;
+    text-align: center;
+    padding-top: 15px;
+}
+footer ul li{
+    display:inline;
+    
+}
+footer a{
+    color: #dddede;
+    text-decoration: none;
+ 
+}

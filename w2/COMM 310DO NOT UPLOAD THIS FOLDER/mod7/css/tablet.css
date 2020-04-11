@@ -1,0 +1,92 @@
+@media only screen and (max-width:800px) {
+    
+    header{
+        text-align: center;
+    }
+    
+    
+    
+    .logo img{
+        display: inline-block;
+        margin-bottom: .5em;
+    }
+    .dropit {
+        display: block;
+  background-color:  #001430;
+        width: 100%;
+  color: white;
+  padding: 16px;
+  font-size: .8em;
+  border: none;
+  cursor: pointer;
+        text-align: center;
+} 
+    header nav {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.likeitslow {
+  display: none;
+  position: absolute;
+  background-color: #ffffff ;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+nav ul .likeitslow li a {
+  color: #001430;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+    .show {
+        display:block;
+    }
+    /*
+    header nav button{
+    display:inline-block;
+}
+
+
+nav #navMenu{
+    list-style-type: none;
+    padding:0; 
+    margin:0;
+}
+
+ header nav #navMenu  li {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    }*/
+    main{
+        margin: 0 auto;
+    }
+.columns{
+    display: block;
+    margin:0 auto;
+    
+}
+article{
+    margin: 0px auto;
+    
+}
+ article .leftside {
+    width:95%;
+
+    max-width: 800px;
+     
+}
+
+article .leftside img{
+    width:100%;
+    margin: 0 auto;
+}
+main article .columns .author{
+    width:95%;
+    margin: 0 auto; 
+    }
+
+}

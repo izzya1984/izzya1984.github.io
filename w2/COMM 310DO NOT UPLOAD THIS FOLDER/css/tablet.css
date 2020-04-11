@@ -1,0 +1,19 @@
+@media only screen and (min-width: 500px){
+
+    main{
+     width: 98%;
+    max-width: 1500px;/*
+    margin: 0 auto;*/
+   
+    }
+    main ul li{
+        width:39%;
+    }
+main ul li{
+    display: inline;
+}
+    main ul li a img {
+    width:38%;
+    
+}
+}
