@@ -53,9 +53,10 @@ main {
         .content{
             font-size: 1.2em;
             .resume{
-                ul{
+            .skills{
                     display: grid;
                     grid-template-columns: repeat(2,1fr);
+                    row-gap: 2.5em;
                 }
                
                 .skill-title{
@@ -76,4 +77,4 @@ main {
         }
     }
 
-
+    }

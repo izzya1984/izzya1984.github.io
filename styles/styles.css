@@ -427,17 +427,24 @@ main .content ul li a:active {
   main .content {
     font-size: 1.2em;
   }
-  main .content .skills .skill-title {
+  main .content .resume .skills {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    row-gap: 2.5em;
+  }
+  main .content .resume .skill-title {
     font-weight: 600;
   }
-  main .about {
+  main .content .about {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1em;
   }
-  main .about img {
+  main .content .about img {
     width: 100%;
     border-radius: 2px;
   }
@@ -492,12 +499,6 @@ nav .side-menu ul li a:active {
 }
 
 .frames {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1.5em;
-  grid-row-gap: 1.5em;
   text-align: center;
 }
 
@@ -506,12 +507,21 @@ nav .side-menu ul li a:active {
   width: 98%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .frames {
-    display: inline-block;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
   }
-  .frames img {
-    margin-top: 1em;
+}
+
+@media only screen and (min-width: 1100px) {
+  .frames {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
 
