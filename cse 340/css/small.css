@@ -1,0 +1,54 @@
+.whole{
+  font-family: 'ZCOOL XiaoWei', serif;
+    background-color: #ffffff;
+  
+    width: 70%;
+    margin: 0 auto;
+}
+
+.heading,.foot{
+    text-align: center;
+    font-size: 2em;
+  color: #0049b7;
+ background-color: #f75990; 
+ 
+ 
+}
+
+img {
+
+  
+  padding-top: 5px;
+  border-radius: 4px ;
+ 
+}
+.listing{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:1em;
+
+    line-height: 40px;
+    color: #0049b7;
+margin-left: 10px;
+}
+li{
+  line-height: 45px;
+}
+h2{
+line-height: 40px;
+font-size: 1.5em;
+  padding: 20px;
+}
+/*#foot{
+  
+  text-align: center;
+ color: #0049b7;
+  font-family: 'Gayathri', sans-serif;
+ background-color: #f75990; 
+ border-radius: 8px;
+ height:100px;
+ height: 90px;
+ line-height: 40px;
+
+  
+}
+*/

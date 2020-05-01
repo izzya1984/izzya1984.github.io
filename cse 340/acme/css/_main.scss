@@ -1,0 +1,282 @@
+main{
+    margin:0 auto;
+    .hero{
+        h1{
+            margin-left: 5px; 
+            font-size: 1em;
+
+        }
+        .hero-rocket{
+            z-index: 0;
+            margin: 0 auto;
+            img{
+                width: 95%;
+                
+           position: absolute;
+            margin:0 auto;
+            }
+         
+        }
+.acme-rocket{ 
+    position: relative;
+      
+    float: right;
+    color: $kiss-red;
+    
+    background-color: rgba(231, 219, 219, 0.63);
+    z-index: 1;
+    padding-bottom: .5em;
+    width:50%;
+    ul{
+        list-style-type: none ;
+        padding-right: 1em;
+        padding-left: 1em;
+        li{
+            font-size: .6em;
+            h2{
+                font-weight: bold;
+                font-size: .7em;
+            }
+        }
+    }
+
+}
+    }
+    .main-grid{
+        width:98%;
+        margin: 0 auto;
+        margin-top: 18em;
+        margin-left: 5px;
+        .reviews{
+            
+        margin-left: 5px;
+            h2{
+                font-size: 1em;
+                font-weight: bold;
+            }
+            ul{
+                font-size: .8em;
+               }
+        }
+    }
+    .recipees{
+        
+        margin-left: 5px;
+        h2{
+            font-size: 1em;
+            font-weight: bold;
+
+        }
+        ul{
+            list-style-type: none;
+            font-size:.8em;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-column-gap: .2em;
+            grid-row-gap: .2em;
+            padding-left: 0;
+            li{
+                background-color: $greyskull;
+                padding-top: .5em;
+                text-align: center;
+            }
+        }
+    }
+}
+@media  screen and (min-width:600px){
+
+      
+    main{
+        .hero{
+            h1{
+                font-size: 1.8em;
+    
+            }
+            .hero-rocket{
+                img{
+                    width: 80%;
+                    
+                }
+             
+            }
+    
+    .acme-rocket{ 
+        padding-bottom: 1em;
+        ul{
+            li{
+                font-size: 1.2em;
+                h2{
+                    font-weight: bold;
+                    font-size: 1.5em;
+                }
+            }
+        }
+    
+    }
+        }
+        .main-grid{
+            margin-top: 28em;
+            .reviews{
+                h2{
+                    font-size: 1.8em;
+                   }
+                ul{
+                    font-size: 1.5em;
+                   }
+            }
+        }
+        .recipees{
+            h2{
+                font-size: 1.8em;
+                
+            }
+            ul{
+                font-size:1.5em;
+               }
+        }
+    }
+    }
+    
+
+
+
+   
+@media  screen and (min-width:700px){
+
+      
+    main{
+        .hero{
+            h1{
+                font-size: 1.8em;
+    
+            }
+            .hero-rocket{
+                img{
+                    width: 80%;
+                    
+                }
+             
+            }
+    
+    .acme-rocket{ 
+        padding-bottom: 1em;
+        ul{
+            li{
+                .button{
+                    width:80%;
+                    margin:0 auto;
+                }
+                font-size: 1em;
+                h2{
+                    font-weight: bold;
+                    font-size: 1.2em;
+                }
+            }
+        }
+    
+    }
+        }
+        .main-grid{
+            display: flex;
+                flex-flow: row-reverse;
+                
+            margin-top: 28em;
+            .reviews{
+                h2{
+                    font-size: 1.8em;
+                   }
+                ul{
+                    font-size: 1.5em;
+                   }
+            }
+        }
+        .recipees{
+            h2{
+                font-size: 1.8em;
+                
+            }
+            ul{
+                font-size:1.5em;
+               }
+        }
+    }
+    }
+    
+
+
+
+
+
+        @media  screen and (min-width:1000px){
+            
+        
+            
+      
+        main{
+            .hero{
+                h1{
+                    font-size: 2.5em;
+        
+                }
+        .acme-rocket{ 
+            
+    padding-bottom: 1em;
+            ul{
+                li{
+                    font-size: 1.5em;
+                    h2{
+                        font-weight: bold;
+                        font-size: 1.8em;
+                    }
+                }
+            } 
+        
+        }
+            }
+            .main-grid{
+                margin-top: 26em;
+                .reviews{
+                    margin-left: 1em;
+                }
+                }
+            }
+        }
+
+            
+        
+        
+        @media  screen and (min-width:1200px){
+            
+        
+            
+      
+            main{
+                .hero{
+                    h1{
+                        font-size: 2.5em;
+            
+                    }
+            .acme-rocket{ 
+                
+        padding-bottom: 2em;
+                ul{
+                    li{
+                        font-size: 1.8em;
+                        h2{
+                            font-weight: bold;
+                            font-size: 2em;
+                        }
+                    }
+                }
+            
+            }
+                }
+                .main-grid{
+                    margin-top: 38em;
+                    
+                    }
+                }
+            }
+    
+                
+      

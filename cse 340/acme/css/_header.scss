@@ -1,0 +1,25 @@
+header{
+    background-color: white;
+    padding: 5px;
+    .logo{
+        width: 30%;
+    }
+    .folder{
+        font-size: .5em;
+        width:35%;
+        float: right;
+      //  display: inline;
+        img{
+            width:20%;
+        }
+    }
+}
+
+@media  screen and (min-width:400px){
+header{
+    .folder{
+        width:25%;
+        font-size:.7em;
+    }
+}
+}

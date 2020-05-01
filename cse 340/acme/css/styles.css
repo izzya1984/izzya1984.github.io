@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Indie+Flower&display=swap");
+body {
+  background-color: red;
+  background-image: url(../images/site/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0 auto;
+}
+
+body .acme {
+  width: 95%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  min-width: 180px;
+}
+
+@media screen and (min-width: 600px) {
+  body .acme {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+header {
+  background-color: white;
+  padding: 5px;
+}
+
+header .logo {
+  width: 30%;
+}
+
+header .folder {
+  font-size: .5em;
+  width: 35%;
+  float: right;
+}
+
+header .folder img {
+  width: 20%;
+}
+
+@media screen and (min-width: 400px) {
+  header .folder {
+    width: 25%;
+    font-size: .7em;
+  }
+}
+
+nav {
+  background-color: #de2226;
+  padding: 3px;
+  color: #ffffff;
+  font-size: .5em;
+}
+
+nav ul {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+  text-align: left;
+}
+
+nav ul .active {
+  background-color: #ffffff;
+  color: #de2226;
+  padding-bottom: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: .5em .8em;
+}
+
+nav ul li:hover {
+  background-color: #ffffff;
+  color: #de2226;
+}
+
+@media screen and (min-width: 400px) {
+  nav {
+    font-size: .7em;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  nav {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  nav {
+    font-size: 2em;
+  }
+}
+
+main {
+  margin: 0 auto;
+}
+
+main .hero h1 {
+  margin-left: 5px;
+  font-size: 1em;
+}
+
+main .hero .hero-rocket {
+  z-index: 0;
+  margin: 0 auto;
+}
+
+main .hero .hero-rocket img {
+  width: 95%;
+  position: absolute;
+  margin: 0 auto;
+}
+
+main .hero .acme-rocket {
+  position: relative;
+  float: right;
+  color: #990033;
+  background-color: rgba(231, 219, 219, 0.63);
+  z-index: 1;
+  padding-bottom: .5em;
+  width: 50%;
+}
+
+main .hero .acme-rocket ul {
+  list-style-type: none;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+main .hero .acme-rocket ul li {
+  font-size: .6em;
+}
+
+main .hero .acme-rocket ul li h2 {
+  font-weight: bold;
+  font-size: .7em;
+}
+
+main .main-grid {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 18em;
+  margin-left: 5px;
+}
+
+main .main-grid .reviews {
+  margin-left: 5px;
+}
+
+main .main-grid .reviews h2 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+main .main-grid .reviews ul {
+  font-size: .8em;
+}
+
+main .recipees {
+  margin-left: 5px;
+}
+
+main .recipees h2 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+main .recipees ul {
+  list-style-type: none;
+  font-size: .8em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: .2em;
+  grid-row-gap: .2em;
+  padding-left: 0;
+}
+
+main .recipees ul li {
+  background-color: #808080;
+  padding-top: .5em;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  main .hero h1 {
+    font-size: 1.8em;
+  }
+  main .hero .hero-rocket img {
+    width: 80%;
+  }
+  main .hero .acme-rocket {
+    padding-bottom: 1em;
+  }
+  main .hero .acme-rocket ul li {
+    font-size: 1.2em;
+  }
+  main .hero .acme-rocket ul li h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  main .main-grid {
+    margin-top: 28em;
+  }
+  main .main-grid .reviews h2 {
+    font-size: 1.8em;
+  }
+  main .main-grid .reviews ul {
+    font-size: 1.5em;
+  }
+  main .recipees h2 {
+    font-size: 1.8em;
+  }
+  main .recipees ul {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  main .hero h1 {
+    font-size: 1.8em;
+  }
+  main .hero .hero-rocket img {
+    width: 80%;
+  }
+  main .hero .acme-rocket {
+    padding-bottom: 1em;
+  }
+  main .hero .acme-rocket ul li {
+    font-size: 1em;
+  }
+  main .hero .acme-rocket ul li .button {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .hero .acme-rocket ul li h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  main .main-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;
+    margin-top: 28em;
+  }
+  main .main-grid .reviews h2 {
+    font-size: 1.8em;
+  }
+  main .main-grid .reviews ul {
+    font-size: 1.5em;
+  }
+  main .recipees h2 {
+    font-size: 1.8em;
+  }
+  main .recipees ul {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main .hero h1 {
+    font-size: 2.5em;
+  }
+  main .hero .acme-rocket {
+    padding-bottom: 1em;
+  }
+  main .hero .acme-rocket ul li {
+    font-size: 1.5em;
+  }
+  main .hero .acme-rocket ul li h2 {
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+  main .main-grid {
+    margin-top: 26em;
+  }
+  main .main-grid .reviews {
+    margin-left: 1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main .hero h1 {
+    font-size: 2.5em;
+  }
+  main .hero .acme-rocket {
+    padding-bottom: 2em;
+  }
+  main .hero .acme-rocket ul li {
+    font-size: 1.8em;
+  }
+  main .hero .acme-rocket ul li h2 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+  main .main-grid {
+    margin-top: 38em;
+  }
+}
+
+footer {
+  width: 99%;
+  font-size: .5em;
+  text-align: center;
+  border-top: solid 2px #000000;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 700px) {
+  footer {
+    font-size: .8em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  footer {
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
