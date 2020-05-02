@@ -8,8 +8,8 @@
 html{
     width:100%;
     margin:0 auto;
-    background: linear-gradient(45deg, $mermaidPurple, $darkBlue, $lightBlue,$blueGreen,$mermaidPink);
-    background-size: 600%;
+    background: linear-gradient(45deg,  $mermaidPink,$mermaidPurple,$blueGreen);
+    background-size: 300%;
     animation: gradient 16s linear infinite;
 
     min-width: 278px;
