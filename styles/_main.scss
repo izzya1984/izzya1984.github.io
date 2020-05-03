@@ -67,16 +67,22 @@ main {
             }
         } 
         .about{
+            width: 80%;
+            margin: 0 auto;
+           
             display: grid;
             grid-template-columns: repeat(2,1fr);
-            grid-column-gap: 1em;
+            grid-column-gap: 3em;
+           
             img{
-                width: 100%;
+                width: 40%;
                 border-radius: 2px;
             }
-        }
+    
+               }
+           }}
         
         }
-    }
+    
 
-    }
+    

@@ -406,6 +406,8 @@ main .content ul li {
 
 main .content ul li a {
   text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 main .content ul li a:visited {
@@ -438,20 +440,22 @@ main .content ul li a:active {
     font-weight: 600;
   }
   main .content .about {
+    width: 80%;
+    margin: 0 auto;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1em;
+    grid-column-gap: 3em;
   }
   main .content .about img {
-    width: 100%;
+    width: 40%;
     border-radius: 2px;
   }
 }
 
 nav .side-menu {
-  background-color: #96cee7;
+  background-color: #ba7ab6;
   width: 200px;
   height: 100%;
   position: fixed;
@@ -563,8 +567,8 @@ footer ul li a img {
 html {
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(45deg, #c6cff8, #233775, #96cee7, #3f9cc5, #ba7ab6);
-  background-size: 600%;
+  background: linear-gradient(45deg, #ba7ab6, #c6cff8, #3f9cc5);
+  background-size: 300%;
   -webkit-animation: gradient 16s linear infinite;
           animation: gradient 16s linear infinite;
   min-width: 278px;
