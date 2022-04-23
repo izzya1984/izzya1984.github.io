@@ -5,16 +5,68 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itzel Aguilar | Home</title>
-    <script defer src="slider.js"></script>
-    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="/slider.js"></script>
+    <link rel="stylesheet" href="/styles/styles.css">
     <link rel="shortcut icon" href="images/fab-icon16.png" type="image/x-icon">
 
 </head>
 
 <body>
-	
-	<h1>WDD 330: Week 1</h1>
+    <header>
+        <h1><a href="index.html"> Itzel Aguilar</a> </h1>
+        <h3>Web Developer</h3>
+
+    </header>
+    <nav>
+        <!--Slidin' menu-->
+       
+<div id="sideMenu" class="side-menu" onmouseleave="closeMenu()">
+    <ul>
+        <li> <a href="/index.html" >Home</a>
+        </li>
+        
+        <li> <a href="/about.html" >About Itzel</a>
+        </li>
+        <li> <a href="/contact.html" >Contact</a>
+        </li>
+        <li> <a href="/resume.html" >Resume</a>
+        </li>
+    </ul>
+</div>   
+<img src="/images/iconfinder_ic_keyboard_arrow_right_48px_352468.svg" alt="Arrow Icon" class="arrow-expand"
+onmouseover="openMenu()">
+    </nav>
+    <main>
+        <div class="content" onclick="closeMenu()">
+
+    </main>
+
+    <h1>Week 1 :  My blockers    </h1> 
     
-	      
+    <p>I think my greatest blocker right now 
+        is the fact that I haven't taken any 
+        coding since last year</p>
+        <p>That and my ridiculously crazy schedule.</p>
+
+
+    <footer>
+        <ul>
+            <li><a target="_blank" href="https://www.facebook.com/izzya1984"><img
+                        src="/images/hiclipart.com-id_facebook.png" alt="Facebook"></a></li>
+
+            <li><a target="_blank" href="https://www.instagram.com/izzya1984"><img
+                        src="/images/hiclipart.com-id_insta.png" alt="Instagram"></a></li>
+
+        </ul>
+
+        <script>
+            var date = document.lastModified;
+            document.write("Last Modified: " + date);
+        </script>
+        <p>&copy; <script>
+                document.write(new Date().getFullYear());
+            </script>|Itzel Aguilar
+        </p>
+    </footer>
 </body>
 </html>
